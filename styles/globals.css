@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    body {
+        @apply text-2xl font-normal -tracking-tightest not-italic font-Neufile;
+    }
+}
+
+
+@font-face {
+    font-family: "Neufile";
+    src: url('/assets/font/NeufileGrotesk-Regular.woff2');
+}

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { H4 } from '../ui/Headings';
 const WhatWeDo = ({ title, description, imagePath }) => {
     return (
-        <div className='grid grid-col-1 md:grid-cols-2 lg:justify-between'>
+        <div className='grid grid-col-1 gap-8 md:gap-0 md:grid-cols-2 lg:justify-between'>
             <div className='min-w-84.5 lg:w-153.5 xl:w-141.25 space-y-4 order-2 lg:order-none'>
                 <H4 text={title}/>
                 <p>{description}</p>

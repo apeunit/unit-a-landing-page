@@ -35,7 +35,6 @@ module.exports = {
         "14.75xl": "3.6875rem",           //59px
         "18.25xl": "4.5625rem",           //73px
         "23xl": "5.75rem",                 //92px
-
       },
 
       letterSpacing: {
@@ -58,6 +57,23 @@ module.exports = {
 
       },
 
+      borderRadius: {
+        "8xl": "2rem" // 32px
+      },
+      
+      spacing: {
+        9.75: "2.4375rem"
+      }, 
+
+      width: {
+        2.785: "0.69625rem",
+        4.0725: "1.018125rem"
+      },
+
+      height: {
+        2.785: "0.69625rem",
+        4.1575: "1.039375rem"
+      },
 
       fontFamily: {
         neufile: "Neufile"

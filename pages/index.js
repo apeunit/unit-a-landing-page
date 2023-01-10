@@ -1,5 +1,6 @@
 import Work from "../components/cards/Work";
 import image from '../public/assets/images/unit8.svg'
+import {DefaultButton, LargeButton} from "../components/ui/Button";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
         title="Unit 8"
         imageSrc={image}
       ></Work>
+      <DefaultButton text="Learn more" hasArrow={true} />
+
+      <LargeButton text="Learn more" hasArrow={true} />
     </>
   );
 }

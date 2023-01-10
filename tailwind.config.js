@@ -63,25 +63,6 @@ module.exports = {
       borderRadius: {
         "8xl": "2rem" // 32px
       },
-    
-
-      width: {
-        2.785: "0.69625rem",
-        4.0725: "1.018125rem"
-      },
-      maxWidth:{
-        maxWidth : "89.17%"
-
-      },
-      padding:{
-        9.5 : "2.375rem"
-      },
-
-
-      height: {
-        2.785: "0.69625rem",
-        4.1575: "1.039375rem"
-      },
 
       fontFamily: {
         neufile: "Neufile"
@@ -112,16 +93,12 @@ module.exports = {
       },
 
       padding:{
+        9.5 : "2.375rem",
         20: "5rem",
        },
 
-      borderRadius: {
-        "8xl": "2rem" // 32px
-      },
-      
-      fontFamily: {
-        neufile: "Neufile"
-      },   
+
+
 
     },
   },

@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/assets/images/rectangle.svg')",
+      },
       colors: {
         primary: {
           100: "#E5E5E5",
@@ -52,13 +55,16 @@ module.exports = {
         "17.625": "4.4063rem",
         "22.125": "5.5313rem",
         "27.3375": "6.8438rem",
-
+      },
+      spacing:{
+        '11.75':'2.938rem'
       },
 
 
       fontFamily: {
         neufile: "Neufile"
-      }
+      },
+      
 
     },
   },

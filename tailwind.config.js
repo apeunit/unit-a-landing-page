@@ -71,6 +71,14 @@ module.exports = {
         2.785: "0.69625rem",
         4.0725: "1.018125rem"
       },
+      maxWidth:{
+        maxWidth : "89.17%"
+
+      },
+      padding:{
+        9.5 : "2.375rem"
+      },
+
 
       height: {
         2.785: "0.69625rem",

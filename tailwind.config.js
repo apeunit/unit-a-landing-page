@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'unit8': "url('/assets/images/unit8.svg')"
+      },
       colors: {
         primary: {
           100: "#E5E5E5",

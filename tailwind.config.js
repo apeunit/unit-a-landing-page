@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        unit8: "url('/assets/images/unit8.svg')",
+        lab3: "url('/assets/images/Lab3.jpg')",
         'hero-pattern': "url('/assets/images/rectangle.svg')",
       },
       colors: {
@@ -79,6 +81,10 @@ module.exports = {
         107.5: "26.875rem",
         147.5: "39.375rem",
         "container": "89.17%"
+      },
+
+      minWidth: {
+        147.5: "39.375rem",
       },
 
       height: {

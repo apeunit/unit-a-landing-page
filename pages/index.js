@@ -1,7 +1,9 @@
-import WhatWeDo from "../components/cards/WhatWeDo";
+// import WhatWeDo from "../components/cards/WhatWeDo";
 import {DefaultButton, LargeButton} from "../components/ui/Button";
 import Title from "../components/ui/Title";
+import Wrapper from "../components/wrapper/Wrapper";
 import polygon from '../public/assets/images/polygon.webp'
+import WhatWeDo from "../components/sections/WhatWeDo";
 export default function Home() {
   return (
     <>
@@ -9,10 +11,8 @@ export default function Home() {
       <DefaultButton text="Learn more" hasArrow={true} />
       <LargeButton text="Learn more" hasArrow={true} />
       <Title content='Who we are'></Title>
-      <WhatWeDo 
-         title="Blockchain is the internet  for cooperation"
-         description="We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate." 
-         imagePath={polygon} />
+
+      <WhatWeDo />
     </>
   )
 }

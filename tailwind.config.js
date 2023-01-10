@@ -60,6 +60,29 @@ module.exports = {
         '11.75':'2.938rem'
       },
 
+      width:{
+        "66" : "16.5rem",
+        "141.25" : "35.3125rem",
+        "153.5" : "38.375rem",
+        "84.5" : "21.125rem",
+        "47.3375" : "11.8344rem",
+
+      },
+
+      maxWidth:{
+        "maxWidth": "89.17%"
+      },
+
+      height:{
+        "61" : "15.25rem",
+        "43.675" : "10.91873rem",
+        "44.75" : "11.1875rem",
+
+      },
+
+      padding:{
+        20: "5rem",
+      },
 
       fontFamily: {
         neufile: "Neufile"

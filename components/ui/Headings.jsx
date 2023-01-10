@@ -18,7 +18,7 @@ export const H3 = ({text, styles}) => {
 
 export const H4 = ({text, styles}) => {
     return (
-        <h4 className={`font-medium lg:text-11.75xl lg:leading-17.625 leading-14.25 text-9.5xl ${styles}`}>{text}</h4>
+        <h4 className={`font-medium lg:text-11.75xl lg:leading-17.625 leading-14.25 text-9.5xl text-white ${styles}`}>{text}</h4>
     )
 }
 

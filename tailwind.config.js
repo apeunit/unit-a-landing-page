@@ -56,7 +56,9 @@ module.exports = {
         "27.3375": "6.8438rem",
       },
       spacing:{
-        '11.75':'2.938rem'
+        9.75: "2.4375rem",
+        11.75:'2.938rem',
+        11.75:'2.938rem'
       },
 
       borderRadius: {
@@ -89,6 +91,41 @@ module.exports = {
         neufile: "Neufile"
       },
       
+      width:{
+        2.785: "0.69625rem",
+        4.0725: "1.018125rem",
+        47.3375 : "11.8344rem",
+        66 : "16.5rem",
+        84.5 : "21.125rem",
+        141.25 : "35.3125rem",
+        153.5 : "38.375rem",
+
+      },
+
+      maxWidth:{
+        "maxWidth": "89.17%"
+      },
+
+      height:{
+        2.785: "0.69625rem",
+        4.1575: "1.039375rem",
+        61 : "15.25rem",
+        43.675 : "10.91873rem",
+        44.75 : "11.1875rem",
+      
+      },
+
+      padding:{
+        20: "5rem",
+       },
+
+      borderRadius: {
+        "8xl": "2rem" // 32px
+      },
+      
+      fontFamily: {
+        neufile: "Neufile"
+      },   
 
     },
   },

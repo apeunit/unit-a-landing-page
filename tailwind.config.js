@@ -103,7 +103,7 @@ module.exports = {
       },
 
       maxWidth:{
-        "maxWidth": "89.17%"
+        "container": "89.17%"
       },
 
       height:{

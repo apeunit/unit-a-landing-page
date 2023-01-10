@@ -1,6 +1,8 @@
 import Work from "../components/cards/Work";
-import image1 from '../public/assets/images/unit8.svg';
-import image2 from '../public/assets/images/Unit8.jpg';
+import image1 from "../public/assets/images/unit8.svg";
+import image2 from "../public/assets/images/Unit8.jpg";
+import { DefaultButton, LargeButton } from "../components/ui/Button";
+import Title from "../components/ui/Title";
 
 export default function Home() {
   return (
@@ -14,6 +16,9 @@ export default function Home() {
         imageSrc1={image1}
         imageSrc2={image2}
       />
+      <DefaultButton text="Learn more" hasArrow={true} />
+      <LargeButton text="Learn more" hasArrow={true} />
+      <Title content="Who we are"></Title>
     </>
   );
 }

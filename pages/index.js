@@ -1,6 +1,6 @@
 import Work from "../components/cards/Work";
-import image from '../public/assets/images/unit8.svg'
-import {DefaultButton, LargeButton} from "../components/ui/Button";
+import image1 from '../public/assets/images/unit8.svg';
+import image2 from '../public/assets/images/Unit8.jpg';
 
 export default function Home() {
   return (
@@ -11,11 +11,9 @@ export default function Home() {
       <Work
         text="A pioneering technology company specializing in decentralized technologies that creates end-to-end digital experiences for protocols including Ethereum, Tezos, Near, Algorand, Celo and more. "
         title="Unit 8"
-        imageSrc={image}
-      ></Work>
-      <DefaultButton text="Learn more" hasArrow={true} />
-
-      <LargeButton text="Learn more" hasArrow={true} />
+        imageSrc1={image1}
+        imageSrc2={image2}
+      />
     </>
   );
 }

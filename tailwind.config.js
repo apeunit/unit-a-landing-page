@@ -56,16 +56,13 @@ module.exports = {
         "27.3375": "6.8438rem",
       },
       spacing:{
+        '9.75': "2.4375rem",
         '11.75':'2.938rem'
       },
 
       borderRadius: {
         "8xl": "2rem" // 32px
       },
-      
-      spacing: {
-        9.75: "2.4375rem"
-      }, 
 
       width: {
         2.785: "0.69625rem",

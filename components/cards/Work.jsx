@@ -12,11 +12,11 @@ const Work = ({ text, title, imageSrc2 }) => {
         <DefaultButton text="Visit" hasArrow={true} />
       </div>
       <div
-        className={`hidden lg:block min-w-147.5 h-[408px] max-w-147.5 w-full mt-10
-        ${title === 'Unit 8' ? 'bg-unit8' : 'bg-lab3' } bg-no-repeat rounded`}
-      > </div>
+        className={`hidden lg:block min-w-147.5 h-102 max-w-147.5 w-full mt-10
+        ${title === "Unit 8" ? "bg-unit8" : "bg-lab3"} bg-no-repeat rounded`}
+      ></div>
       <div
-        className="lg:hidden relative h-[390px] mt-10 w-[90%]
+        className="lg:hidden relative h-77.25 mt-10 w-11/12
           rounded md:mx-10 mx-5"
       >
         <Image src={imageSrc2} alt="our work" fill className="rounded" />

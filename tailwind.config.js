@@ -9,7 +9,7 @@ module.exports = {
       backgroundImage: {
         unit8: "url('/assets/images/unit8.svg')",
         lab3: "url('/assets/images/Lab3.jpg')",
-        'hero-pattern': "url('/assets/images/rectangle.svg')",
+        "hero-pattern": "url('/assets/images/rectangle.svg')",
       },
       colors: {
         primary: {
@@ -63,24 +63,24 @@ module.exports = {
       spacing: {
         9.75: "2.4375rem",
         32.75: "8.1875rem",
-        11.75:'2.938rem',
+        11.75: "2.938rem",
         26.5: "6.6250rem",
       },
 
       width: {
         2.785: "0.69625rem",
         4.0725: "1.018125rem",
-        47.3375 : "11.8344rem",
-        66 : "16.5rem",
-        84.5 : "21.125rem",
-        141.25 : "35.3125rem",
-        153.5 : "38.375rem",
+        47.3375: "11.8344rem",
+        66: "16.5rem",
+        84.5: "21.125rem",
+        141.25: "35.3125rem",
+        153.5: "38.375rem",
       },
 
       maxWidth: {
         107.5: "26.875rem",
         147.5: "39.375rem",
-        "container": "89.17%"
+        container: "89.17%",
       },
 
       minWidth: {
@@ -91,24 +91,25 @@ module.exports = {
         2.785: "0.69625rem",
         4.1575: "1.039375rem",
         48.25: "12.0625rem", //193px,
-        61 : "15.25rem",
-        43.675 : "10.91873rem",
-        44.75 : "11.1875rem",
+        61: "15.25rem",
+        43.675: "10.91873rem",
+        44.75: "11.1875rem",
+        77.25: "19.3125rem",
+        102: "25.5rem",
       },
-      
-      padding:{
-        9.5 : "2.375rem",
-        20: "5rem",
-       },
 
+      padding: {
+        9.5: "2.375rem",
+        20: "5rem",
+      },
 
       maxHeight: {
         115.75: "28.9375rem", // 463px
         170: "42.5rem", // 680px
       },
-      
+
       borderRadius: {
-        "8xl": "2rem" // 32px
+        "8xl": "2rem", // 32px
       },
 
       fontFamily: {

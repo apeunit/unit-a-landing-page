@@ -4,10 +4,9 @@
 
 @layer components {
     body {
-        @apply text-2xl font-normal -tracking-tightest not-italic font-Neufile;
+        @apply text-2xl font-normal -tracking-tightest font-neufile;
     }
 }
-
 
 @font-face {
     font-family: "Neufile";

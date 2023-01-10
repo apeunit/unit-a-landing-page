@@ -20,7 +20,6 @@ module.exports = {
 
         },
         secondary: {
-          100: "#2E2E2E",
           200: "#9A9A9A"
         },
 
@@ -58,7 +57,7 @@ module.exports = {
 
 
       fontFamily: {
-        Neufile: "Neufile"
+        neufile: "Neufile"
       }
 
     },

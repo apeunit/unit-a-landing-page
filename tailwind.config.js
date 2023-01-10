@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/assets/images/rectangle.svg')",
+        "hero-pattern": "url('/assets/images/rectangle.svg')",
       },
       colors: {
         primary: {
@@ -60,6 +60,7 @@ module.exports = {
 
       spacing: {
         9.75: "2.4375rem",
+        11.75: "2.938rem",
         32.75: "8.1875rem",
         26.5: "6.6250rem",
       },
@@ -67,6 +68,11 @@ module.exports = {
       width: {
         2.785: "0.69625rem",
         4.0725: "1.018125rem",
+        47.3375: "11.8344rem",
+        66: "16.5rem",
+        84.5: "21.125rem",
+        141.25: "35.3125rem",
+        153.5: "38.375rem",
       },
 
       maxWidth: {
@@ -77,12 +83,24 @@ module.exports = {
       height: {
         2.785: "0.69625rem",
         4.1575: "1.039375rem",
+        43.675: "10.91873rem",
+        44.75: "11.1875rem",
         48.25: "12.0625rem", //193px
+        61: "15.25rem",
       },
 
       maxHeight: {
         115.75: "28.9375rem", // 463px
         170: "42.5rem", // 680px
+      },
+
+      padding: {
+        9.5: "2.375rem",
+        20: "5rem",
+      },
+
+      borderRadius: {
+        "8xl": "2rem", // 32px
       },
 
       fontFamily: {

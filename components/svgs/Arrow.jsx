@@ -9,7 +9,7 @@ export const Arrow = ({ style }) => {
 
 export const WhiteArrow = ({ style }) => {
     return (
-        <svg className={`w-[34.86px] h-[34.73px] duration-500 text-black ${style}`} width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className={`w-8.715 h-8.6825 duration-500 text-black ${style}`} width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7.36368 1.13623L36 1.13623V29.7726" stroke="white" stroke-width="2" />
             <path d="M35.5 1.50049L1.13637 35.8641" stroke="white" stroke-width="2" />
         </svg>

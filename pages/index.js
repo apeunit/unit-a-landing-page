@@ -1,17 +1,23 @@
+import OurTeam from "../components/sections/OurTeam";
 import OurWork from "../components/sections/OurWork";
-import WhatWeDo from "../components/cards/WhatWeDo";
-import polygon from "../public/assets/images/polygon.webp";
 import Wrapper from "../components/wrapper/Wrapper";
-
+import Partners from "../components/sections/Partners";
+import WhoWeAre from "../components/sections/WhoWeAre";
+import WhatWeDo from "../components/sections/WhatWeDo";
+import ContactUs from "../components/sections/ContactUs";
+import Footer from "../components/layout/Footer";
 export default function Home() {
   return (
-    <Wrapper>
-      <OurWork />
-      <WhatWeDo
-        title="Blockchain is the internet  for cooperation"
-        description="We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate."
-        imagePath={polygon}
-      />
-    </Wrapper>
+    <>
+      <Wrapper>
+        <OurWork />
+        <WhoWeAre />
+        <WhatWeDo />
+        <OurTeam />
+        <Partners />
+        <ContactUs />
+        <Footer />
+      </Wrapper>
+    </>
   );
 }

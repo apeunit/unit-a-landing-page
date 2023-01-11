@@ -4,7 +4,7 @@ import arcImage from "../public/assets/images/arc.webp";
 import diamondImage from "../public/assets/images/diamond.webp";
 
 
-export const data = [
+const data = [
     {
         title: "Blockchain is the internet for cooperation",
         description: "We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate.",
@@ -26,3 +26,5 @@ export const data = [
         image: diamondImage,
     },
 ];
+
+export default data;

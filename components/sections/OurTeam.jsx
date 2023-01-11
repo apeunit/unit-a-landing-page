@@ -9,7 +9,7 @@ const OurTeam = () => {
             {team.map((role, index) => {
                 return (
                     <div key={index} className={`group flex items-center justify-between border-b-2 border-primary-800 py-6 ${role.id === 1 ? "border-t-2" : ""}`}>
-                        <H5 text={role.title} />
+                        <H5 text={role.title} styles='text-white' />
                         <WhiteArrow style="group-hover:rotate-45" />
                     </div>
                 )

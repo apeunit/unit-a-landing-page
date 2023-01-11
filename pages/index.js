@@ -1,4 +1,5 @@
 import OurTeam from "../components/sections/OurTeam";
+import OurWork from "../components/sections/OurWork";
 import Wrapper from "../components/wrapper/Wrapper";
 import Partners from "../components/sections/Partners";
 import WhoWeAre from "../components/sections/WhoWeAre";
@@ -8,11 +9,12 @@ import Footer from "../components/layout/Footer";
 export default function Home() {
   return (
     <>
-         <Wrapper >
+      <Wrapper>
         <WhoWeAre />
+        <OurWork />
         <WhatWeDo />
         <OurTeam />
-        <Partners/>
+        <Partners />
         <ContactUs />
         <Footer />
       </Wrapper>

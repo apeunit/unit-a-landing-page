@@ -1,4 +1,4 @@
-import whatWeDo from "../../data/whatWeDo.js";
+import whatWeDo from "../../data/whatWeDo";
 import WhatWeDoCard from "../cards/WhatWeDoCard";
 import Title from "../ui/Title";
 

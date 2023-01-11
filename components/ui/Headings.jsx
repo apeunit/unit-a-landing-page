@@ -30,6 +30,6 @@ export const H5 = ({text, styles}) => {
 
 export const P = ({text, styles}) => {
     return (
-        <p className={`font-normal lg:leading-11.25 lg:text-3xl  ${styles}`}>{text}</p>
+        <p className={`font-normal lg:leading-11.25 lg:text-3xl ${styles}`}>{text}</p>
     )
 }

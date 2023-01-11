@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/assets/images/rectangle.svg')",
+        "hero-pattern": "url('/assets/images/rectangle.svg')",
       },
       colors: {
         primary: {
@@ -19,26 +19,24 @@ module.exports = {
           600: "#636363",
           700: "#494949",
           800: "#2E2E2E",
-          900: "#141414"
-
+          900: "#141414",
         },
         secondary: {
-          200: "#9A9A9A"
+          200: "#9A9A9A",
         },
-
       },
       fontSize: {
-        "3.75": "0.9375rem",               //15px    
-        "4.75": "1.1875rem",              //19px
-        "9.5xl": "2.375rem",              //38px
-        "11.75xl": "2.9375rem",           //47px
-        "14.75xl": "3.6875rem",           //59px
-        "18.25xl": "4.5625rem",           //73px
-        "23xl": "5.75rem",                 //92px
+        3.75: "0.9375rem", //15px
+        4.75: "1.1875rem", //19px
+        "9.5xl": "2.375rem", //38px
+        "11.75xl": "2.9375rem", //47px
+        "14.75xl": "3.6875rem", //59px
+        "18.25xl": "4.5625rem", //73px
+        "23xl": "5.75rem", //92px
       },
 
       letterSpacing: {
-        "tightest": "0.15"
+        tightest: "0.15",
       },
 
       lineHeight: {
@@ -61,18 +59,15 @@ module.exports = {
         11.75:'2.938rem',
         12.5: "3.125rem",
         14.25: "3.5625rem",
+        32.75: "8.1875rem",
+        26.5: "6.6250rem",
       },
 
       borderRadius: {
-        "8xl": "2rem" // 32px
+        "8xl": "2rem", // 32px
       },
 
-
-      fontFamily: {
-        neufile: "Neufile"
-      },
-      
-      width:{
+      width: {
         2.785: "0.69625rem",
         4.0725: "1.018125rem",
         47.3375 : "11.8344rem",
@@ -84,34 +79,38 @@ module.exports = {
 
       },
 
-      maxWidth:{
-        "container": "89.17%"
+      maxWidth: {
+        107.5: "26.875rem",
+        147.5: "39.375rem",
       },
 
-      height:{
+      height: {
         2.785: "0.69625rem",
         4.1575: "1.039375rem",
-        61 : "15.25rem",
-        43.675 : "10.91873rem",
-        44.75 : "11.1875rem",
-      
+        43.675: "10.91873rem",
+        44.75: "11.1875rem",
+        48.25: "12.0625rem", //193px
+        61: "15.25rem",
       },
 
-      padding:{
-        9.5 : "2.375rem",
+      maxHeight: {
+        115.75: "28.9375rem", // 463px
+        170: "42.5rem", // 680px
+      },
+
+      padding: {
+        9.5: "2.375rem",
         20: "5rem",
-       },
+      },
 
       borderRadius: {
-        "8xl": "2rem" // 32px
-
+        "8xl": "2rem", // 32px
       },
-      
-      fontFamily: {
-        neufile: "Neufile"
-      },   
 
+      fontFamily: {
+        neufile: "Neufile",
+      },
     },
   },
   plugins: [],
-}
+};

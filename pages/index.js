@@ -1,7 +1,11 @@
-import {DefaultButton, LargeButton} from "../components/ui/Button";
+import { DefaultButton, LargeButton } from "../components/ui/Button";
+import Title from "../components/ui/Title";
+import polygon from "../public/assets/images/polygon.webp";
 import Wrapper from "../components/wrapper/Wrapper";
 import WhatWeDo from "../components/sections/WhatWeDo";
 import ContactUs from "../components/sections/ContactUs";
+import Footer from "../components/layout/Footer";
+
 export default function Home() {
   return (
     <>
@@ -11,7 +15,9 @@ export default function Home() {
         <LargeButton text="Learn more" hasArrow={true} />
         <WhatWeDo />
          <ContactUs />
-      </Wrapper>
+        <Footer />
+
+        </Wrapper>
     </>
-  )
+  );
 }

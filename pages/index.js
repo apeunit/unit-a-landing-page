@@ -1,9 +1,12 @@
+import { DefaultButton, LargeButton } from "../components/ui/Button";
 import WhatWeDo from "../components/cards/WhatWeDo";
-import {DefaultButton, LargeButton} from "../components/ui/Button";
 import Title from "../components/ui/Title";
 import polygon from '../public/assets/images/polygon.webp'
 import OurTeam from "../components/sections/OurTeam";
 import Wrapper from "../components/wrapper/Wrapper";
+import ContactUs from "../components/sections/ContactUs";
+import Footer from "../components/layout/Footer";
+
 export default function Home() {
   return (
     <>
@@ -15,7 +18,10 @@ export default function Home() {
          imagePath={polygon} />
 
          <OurTeam />
+         <ContactUs />
+        <Footer />
+
         </Wrapper>
     </>
-  )
+  );
 }

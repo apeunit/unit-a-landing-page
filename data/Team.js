@@ -1,22 +1,23 @@
-export const team =[
+export const team = [
 
 
     {
-        title : "Business Analyst",
-            
-        },
-        {
-           
-            title : "Frontend Engineer",
-                
-            },
-            {
-            
-                title : "Python developer",
-                },
-                {
-                
-                    title : "senior project manager ",        
-                    },
+        id: 1,
+        title: "Business Analyst",
+
+    },
+    {
+        id: 2,
+        title: "Frontend Engineer",
+
+    },
+    {
+        id: 3,
+        title: "Python developer",
+    },
+    {
+        id: 4,
+        title: "senior project manager ",
+    },
 
 ]

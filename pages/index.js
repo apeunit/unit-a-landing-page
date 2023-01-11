@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <>
       <Wrapper >
-      <h1 className="text-center font-bold text-3xl text-indigo-700">Unit A landing Page</h1>;
-      <DefaultButton text="Learn more" hasArrow={true} />
-      <LargeButton text="Learn more" hasArrow={true} />
       <Title content='Who we are'></Title>
       <WhatWeDo 
          title="Blockchain is the internet  for cooperation"

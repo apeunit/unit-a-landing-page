@@ -6,7 +6,7 @@ export const H1 = ({text, styles}) => {
 
 export const H2 = ({text, styles}) => {
     return (
-        <h2 className={`font-medium lg:text-18.25xl lg:leading-27.3375 leading-22.125 text-14.75xl ${styles}`}>{text}</h2>
+        <h2 className={`font-medium lg:text-18.25xl lg:leading-27.3375 leading-22.125 text-[59px] ${styles}`}>{text}</h2>
     )
 }
 

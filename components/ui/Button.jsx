@@ -1,4 +1,4 @@
-import Arrow from "../svgs/Arrow";
+import {Arrow} from "../svgs/Arrow";
 
 export const DefaultButton = ({text, hasArrow, style, hasLink}) => {
     return ( 

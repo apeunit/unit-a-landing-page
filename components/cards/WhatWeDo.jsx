@@ -8,7 +8,7 @@ const WhatWeDo = ({ title, description, imagePath }) => {
                 <p>{description}</p>
             </div>
             <div className='flex items-center lg:justify-center order-1 lg:order-none'>
-              <Image className='w-47.3375 h-44.75 xl:w-66 xl:h-61 lg:w-47.3375 lg:h-43.675' src={imagePath} />
+              <Image className='w-47.3375 h-44.75 xl:w-66 xl:h-61 lg:w-47.3375 lg:h-43.675' src={imagePath} alt="image"/>
             </div>
         </div>
     );

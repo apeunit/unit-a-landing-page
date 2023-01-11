@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Wrapper>
-        <OurWork />
         <WhoWeAre />
+        <OurWork />
         <WhatWeDo />
         <OurTeam />
         <Partners />

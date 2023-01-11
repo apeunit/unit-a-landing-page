@@ -9,7 +9,7 @@ const Work = ({ text, title, imageSrc2 }) => {
       <div className="lg:max-w-147.5 lg:min-w-147.5 px-5 md:pl-10 ">
         <H3 text={title}></H3>
         <P text={text} styles="text-secondary-200 leading-11.25 mb-6"></P>
-        <DefaultButton text="Visit" hasArrow={true} />
+        <DefaultButton text="Visit" hasArrow={true} style='gap-x-3' />
       </div>
       <div
         className={`hidden lg:block lg:min-w-147.5 lg:h-102 lg:max-w-147.5 w-full mt-10

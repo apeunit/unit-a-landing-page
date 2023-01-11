@@ -10,6 +10,7 @@ export default function Home() {
         <LargeButton text="Learn more" hasArrow={true} />
         
         <WhatWeDo />
+        
       </Wrapper>
     </>
   )

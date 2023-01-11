@@ -6,7 +6,7 @@ export const H1 = ({text, styles}) => {
 
 export const H2 = ({text, styles}) => {
     return (
-        <h2 className={`font-medium lg:text-18.25xl lg:leading-27.3375 leading-22.125 text-14.75xl ${styles}`}>{text}</h2>
+        <h2 className={`font-medium lg:text-18.25xl lg:leading-27.3375 leading-22.125 text-11.75xl ${styles}`}>{text}</h2>
     )
 }
 
@@ -24,12 +24,12 @@ export const H4 = ({text, styles}) => {
 
 export const H5 = ({text, styles}) => {
     return (
-        <h5 className={`font-medium text-9.5xl lg:leading-14.25 leading-11.25 text-3xl ${styles}`}>{text}</h5>
+        <h5 className={`font-medium lg:text-9.5xl lg:leading-14.25 leading-11.25 text-2xl ${styles}`}>{text}</h5>
     )
 }
 
 export const P = ({text, styles}) => {
     return (
-        <p className={`font-normal lg:text-3xl leading-11.25  ${styles}`}>{text}</p>
+        <p className={`font-normal lg:leading-11.25 lg:text-3xl ${styles}`}>{text}</p>
     )
 }

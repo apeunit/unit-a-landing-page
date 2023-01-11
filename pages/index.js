@@ -5,6 +5,7 @@ import Partners from "../components/sections/Partners";
 import WhatWeDo from "../components/sections/WhatWeDo";
 import ContactUs from "../components/sections/ContactUs";
 import Footer from "../components/layout/Footer";
+import Title from "../components/ui/Title";
 
 export default function Home() {
   return (

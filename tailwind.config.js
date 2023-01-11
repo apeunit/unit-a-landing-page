@@ -78,6 +78,7 @@ module.exports = {
         84.5 : "21.125rem",
         141.25 : "35.3125rem",
         153.5 : "38.375rem",
+        239 : "59.75rem"
 
       },
 
@@ -101,6 +102,7 @@ module.exports = {
 
       borderRadius: {
         "8xl": "2rem" // 32px
+
       },
       
       fontFamily: {

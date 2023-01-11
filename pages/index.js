@@ -1,6 +1,5 @@
 import { DefaultButton, LargeButton } from "../components/ui/Button";
-import Title from "../components/ui/Title";
-import polygon from "../public/assets/images/polygon.webp";
+import OurTeam from "../components/sections/OurTeam";
 import Wrapper from "../components/wrapper/Wrapper";
 import WhatWeDo from "../components/sections/WhatWeDo";
 import ContactUs from "../components/sections/ContactUs";
@@ -14,6 +13,7 @@ export default function Home() {
         <DefaultButton text="Learn more" hasArrow={true} />
         <LargeButton text="Learn more" hasArrow={true} />
         <WhatWeDo />
+         <OurTeam />
          <ContactUs />
         <Footer />
 

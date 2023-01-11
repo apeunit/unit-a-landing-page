@@ -4,7 +4,7 @@ import arcImage from "../public/assets/images/arc.webp";
 import diamondImage from "../public/assets/images/diamond.webp";
 
 
-const whatWeDo = [
+const offers = [
     {
         title: "Blockchain is the internet for cooperation",
         description: "We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate.",
@@ -27,4 +27,4 @@ const whatWeDo = [
     },
 ];
 
-export default whatWeDo;
+export default offers;

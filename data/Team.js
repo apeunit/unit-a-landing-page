@@ -17,7 +17,7 @@ export const team = [
     },
     {
         id: 4,
-        title: "senior project manager ",
+        title: "Senior project manager ",
     },
 
 ]

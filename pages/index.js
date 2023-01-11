@@ -6,10 +6,12 @@ import WhoWeAre from "../components/sections/WhoWeAre";
 import WhatWeDo from "../components/sections/WhatWeDo";
 import ContactUs from "../components/sections/ContactUs";
 import Footer from "../components/layout/Footer";
+import Hero from "../components/sections/Hero";
 export default function Home() {
   return (
     <>
-      <Wrapper>
+      <Wrapper >
+        <Hero />
         <WhoWeAre />
         <OurWork />
         <WhatWeDo />

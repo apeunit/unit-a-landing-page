@@ -93,12 +93,13 @@ module.exports = {
         141.25: "35.3125rem",
         153.5: "38.375rem",
         239: "59.75rem",
+         89 : "89.17%"
       },
 
       maxWidth: {
         107.5: "26.875rem",
         147.5: "39.375rem",
-        container: "89.17%",
+        container: "89.17rem",
       },
 
       minWidth: {

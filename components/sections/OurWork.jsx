@@ -12,7 +12,7 @@ const OurWork = () => {
             key={index}
             title={el.title}
             text={el.description}
-            imageSrc2={el.image2}
+            imageSrc2={el.image}
           />
         ))}
       </div>

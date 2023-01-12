@@ -1,4 +1,4 @@
-import OurTeam from "../components/sections/OurTeam";
+import JoinOurTeam from "../components/sections/JoinOurTeam";
 import OurWork from "../components/sections/OurWork";
 import Wrapper from "../components/wrapper/Wrapper";
 import Partners from "../components/sections/Partners";
@@ -15,7 +15,7 @@ export default function Home() {
         <WhoWeAre />
         <OurWork />
         <WhatWeDo />
-        <OurTeam />
+        <JoinOurTeam />
         <Partners />
         <ContactUs />
         <Footer />

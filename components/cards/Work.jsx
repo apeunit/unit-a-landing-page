@@ -6,7 +6,7 @@ import { DefaultButton } from "../ui/Button";
 const Work = ({ text, title, imageSrc2 }) => {
   return (
     <div className="bg-primary-800 gap-x-6 lg:max-w-7xl mb-6 lg:mb-8 lg:min-w-min lg:max-h-170 text-white rounded-xl lg:mr-20 lg:pl-10 pt-10 lg:pt-32.75 pb-10 lg:pb-26.5 flex lg:flex-row flex-col items-center">
-      <div className="lg:max-w-147.5 lg:min-w-147.5 px-5 md:pl-10 ">
+      <div className="lg:max-w-147.5 lg:min-w-147.5 px-5 xl:px-0 md:pl-10 ">
         <H3 text={title}></H3>
         <P text={text} styles="text-secondary-200 leading-11.25 mb-6"></P>
         <DefaultButton text="Visit" hasArrow={true} style='gap-x-3' />

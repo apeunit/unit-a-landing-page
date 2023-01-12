@@ -4,12 +4,12 @@ import Title from "../ui/Title";
 import { WhiteArrow } from "../svgs/Arrow";
 const OurTeam = () => {
     return (
-        <section className="py-10 xl:px-20.25">
-            <Title content="Our Team" />
+        <section className="py-10 md:px-0 xl:w-[87.38%] mx-auto w-full  px-[26px]">
+            <Title content="Join Our Team" />
             {team.map((role, index) => {
                 return (
-                    <div key={index} className={`group flex items-center justify-between border-b-2 border-primary-800 py-6 ${role.id === 1 ? "border-t-2" : ""}`}>
-                        <H5 text={role.title} styles="text-white" />
+                    <div key={index} className={`group flex items-center justify-between  gap-[19.4px] border-b-2 border-primary-800 py-6 ${role.id === 1 ? "border-t-2" : ""}`}>
+                        <H5 text={role.title} styles="text-white w-[277px] md:w-auto" />
                         <WhiteArrow style="group-hover:rotate-45" />
                     </div>
                 )

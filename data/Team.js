@@ -13,11 +13,11 @@ export const team = [
     },
     {
         id: 3,
-        title: "Python developer",
+        title: "Python Developer",
     },
     {
         id: 4,
-        title: "Senior project manager ",
+        title: "Senior Project Manager ",
     },
 
 ]

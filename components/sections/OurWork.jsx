@@ -5,7 +5,10 @@ import Work from "../cards/Work";
 const OurWork = () => {
   return (
     <div className="flex flex-col">
-      <Title content="Our Work" styles={'ml-5 md:ml-20'}/>
+      <div>
+      <Title content="Our Work" styles={'lg:ml-24  md:ml-20'}/>
+
+      </div>
       <div>
         {work.map((el, index) => (
           <Work

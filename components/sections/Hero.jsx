@@ -11,8 +11,8 @@ const Hero = () => {
     return ( 
         <section className="flex flex-col pt-9.25">
             <H4 text="Unit A" styles="text-white mb-11.75" />
-            <Image src={HeroBall} className="self-end lg:mr-17.15 hidden lg:flex" />
-            <h3 className={`font-semibold lg:text-14.75xl text-3xl lg:leading-22.125 leading-14.25 text-white lg:ml-20.25 lg:mr-12.5 mt-12.5 lg:mt-4.15 mb-23 w-full lg:w-239 xl:w-295.25`}>
+            <Image src={HeroBall} className="self-end lg:mr-[60.6px] hidden lg:flex" />
+            <h3 className={`font-semibold leading-[88.5px] md:text-[59px] text-3xl lg:leading-22.125 leading-14.25 text-white  mt-12.5 lg:mt-4.15 mb-23 w-full lg:w-239 xl:w-[1181px] w-[390px] md:w-[956px] xl:ml-[79px] mx-auto`}>
                 <span>A </span> 
                 <p className="inline-flex">
                      <span className="relative">

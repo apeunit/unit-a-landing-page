@@ -12,7 +12,7 @@ const Partners = () => {
       <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-59.5">
         {logo.map((el, index) => {
           return (
-            <Link href={el.link} key={index}>
+            <Link href={el.link} key={index} target='_blank'>
             <Image
               priority
               width={el.Width}
@@ -30,7 +30,7 @@ const Partners = () => {
         {logo.map((el, index) => {
           return (
             <div className="relative w-18.75 h-8.25 mx-1.5 my-2" key={index}>
-              <Link href={el.link}><Image src={el.source} priority fill alt="logo" /></Link>
+              <Link href={el.link} target='_blank'><Image src={el.source} priority fill alt="logo" /></Link>
             </div>
           );
         })}

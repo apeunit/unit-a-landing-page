@@ -4,7 +4,7 @@ import logo from "../../data/logos";
 import Link from "next/link";
 const Partners = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center lg:mt-12.5 md:mt-3.5 mt-5 mb-7.5 lg:mb-15.25">
       <Title content="Partners" />
       <p className="text-secondary-200 -mt-12 text-center">
         We partner with the leading brands

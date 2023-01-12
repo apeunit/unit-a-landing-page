@@ -3,7 +3,7 @@ import { H3 } from "../ui/Headings";
 
 const ContactUs = () => {
     return (
-        <section className="bg-primary-800 mx-0.5 rounded-8xl gap-16 xl:px-16 px-5 py-8 flex flex-col items-center">
+        <section className="bg-primary-800 mx-0.5 rounded-8xl gap-16 xl:px-16 px-5 py-8 flex flex-col items-center mt-7.5 lg:mt-16 mb-13.75">
             <div className="xl:w-239">
                 <H3 text="Ready to talk about your project?" styles="text-center text-white" />
                 <p className="text-white/90 text-center">Are you looking for a consultancy partnership to address your blockchain challenges? We{"’"}d love to hear from you.  Let{"’"}s build something <br />

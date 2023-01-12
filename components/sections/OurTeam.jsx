@@ -5,7 +5,7 @@ import { WhiteArrow } from "../svgs/Arrow";
 const OurTeam = () => {
     return (
         <section className="py-10 xl:px-20.25">
-            <Title content="Our Team" />
+            <Title content="Join Our Team" styles='bg-repeat-x'/>
             {team.map((role, index) => {
                 return (
                     <div key={index} className={`group flex items-center justify-between border-b-2 border-primary-800 py-6 ${role.id === 1 ? "border-t-2" : ""}`}>

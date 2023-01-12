@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { H4 } from '../ui/Headings';
+import { motion } from 'framer-motion';
 
 const WhatWeDo = ({index, title, description, image}) => {
     return (
@@ -8,9 +9,13 @@ const WhatWeDo = ({index, title, description, image}) => {
                 <H4 styles="xl:w-141.25" text={title}/>
                 <p>{description}</p>
             </div>
-            <div className={`flex w-1/2 items-center md:justify-center order-1`}>
+            <motion.div 
+            initial={{ x: "-80%", opacity: 0 , w: "10px", y: "30%"}}
+            animate={{ x: "0%", opacity: 1, y: "0%", w: "100%" }}
+            transition={{ duration: 0.7, ease: "easeIn" }}
+            className={`flex w-1/2  items-center md:justify-center order-1`}>
               <Image className={`${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
-            </div>
+            </motion.div>
         </div>
     );
 }

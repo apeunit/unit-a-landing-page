@@ -4,6 +4,7 @@ import Title from "../ui/Title";
 import { WhiteArrow } from "../svgs/Arrow";
 const OurTeam = () => {
     return (
+
         <section className="py-10 xl:px-20.25 lg:mt-11 mt-2.5 lg:mb-7">
             <Title content="Our Team" />
             {team.map((role, index) => {

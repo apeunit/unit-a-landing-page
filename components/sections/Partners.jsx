@@ -12,14 +12,14 @@ const Partners = () => {
       <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-60">
         {logo.map((el, index) => {
           return (
-            <Link href={el.link}>
+            <Link href={el.link} key={index}>
             <Image
               priority
               width={el.Width}
               height={el.Height}
               src={el.source}
               alt="logo"
-              key={index}
+              
               className="mx-3 my-2"
             />
             </Link>

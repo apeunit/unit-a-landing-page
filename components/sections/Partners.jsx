@@ -8,7 +8,7 @@ const Partners = () => {
       <p className="text-secondary-200 -mt-12 text-center">
         We partner with the leading brands
       </p>
-      <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-60">
+      <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-[238px]">
         {logo.map((el, index) => {
           return (
             <Image

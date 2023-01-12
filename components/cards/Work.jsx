@@ -5,23 +5,41 @@ import { DefaultButton } from "../ui/Button";
 
 const Work = ({ text, title, imageSrc2 }) => {
   return (
-    <div className="bg-primary-800 gap-x-6 lg:max-w-7xl mb-6 lg:mb-8 lg:min-w-min lg:max-h-170 text-white rounded-xl lg:mr-20 lg:pl-10 pt-10 lg:pt-32.75 pb-10 lg:pb-26.5 flex lg:flex-row flex-col items-center">
-      <div className="lg:max-w-147.5 lg:min-w-147.5 px-5 xl:px-0 md:pl-10 ">
-        <H3 text={title}></H3>
-        <P text={text} styles="text-secondary-200 leading-11.25 mb-6"></P>
-        <DefaultButton text="Visit" hasArrow={true} style='gap-x-3' />
-      </div>
+    <div className="pt-[24px] pb-[32px] xl:pt-[131px] xl:pb-[110px] bg-primary-800 w-full xl:w-[1280px] rounded-xl  flex-col lg:flex lg:flex-row md:justify-between px-[16px] xl:px-0 xl:pl-[51px] ">
+        <div className="  xl:w-[650px]  xl:px-5 xl:px-0 md:w-[600px]">
+      <H3 styles="text-white" text={title}></H3>
+      <P text={text} styles="text-secondary-200 leading-11.25 mb-6 w-full"></P>
+      <DefaultButton text="Visit" hasArrow={true} style='gap-x-3' />
+    </div>
       <div
-        className={`hidden lg:block lg:min-w-147.5 lg:h-102 lg:max-w-147.5 w-full mt-10
+        className={`hidden lg:block  w-[630px] flex justify-end lg:h-102   mt-10
         ${title === "Unit 8" ? "bg-unit8" : "bg-lab3"} bg-no-repeat rounded`}
       ></div>
       <div
-        className="lg:hidden relative h-48.5 mt-10 w-11/12
-          rounded md:mx-10 mx-5"
+        className="lg:hidden relative h-48.5 mt-10 w-11/12 h-[160px] w-auto
+          rounded lg:mx-10 xl:mx-5 md:w-[850px] md:h-[463px]"
       >
         <Image src={imageSrc2} alt="our work" fill className="rounded" />
       </div>
     </div>
+
+  //   <div className="bg-primary-800 w-full w-[1280px] rounded-xl flex justify-between pl-[51px]">
+    // <div className="lg:max-w-147.5 lg:min-w-147.5 px-5 xl:px-0 md:pl-10 ">
+    //   <H3 styles="text-white" text={title}></H3>
+    //   <P text={text} styles="text-secondary-200 leading-11.25 mb-6 w-[567px]"></P>
+    //   <DefaultButton text="Visit" hasArrow={true} style='gap-x-3' />
+    // </div>
+  //   <div
+  //       className={`hidden lg:block lg:min-w-147.5 lg:h-102 lg:max-w-147.5 w-full mt-10
+  //       ${title === "Unit 8" ? "bg-unit8" : "bg-lab3"} bg-no-repeat rounded`}
+  //     ></div>
+  //     <div
+  //       className="lg:hidden relative h-48.5 mt-10 w-11/12
+  //         rounded md:mx-10 mx-5"
+  //     >
+  //       <Image src={imageSrc2} alt="our work" fill className="rounded" />
+  //     </div>
+  // </div>
   );
 };
 

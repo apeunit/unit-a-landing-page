@@ -4,12 +4,12 @@ import Work from "../cards/Work";
 
 const OurWork = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <div>
-      <Title content="Our Work" styles={'lg:ml-24  md:ml-20'}/>
+      <Title content="Our Work" styles={'lg:ml-24  ml-0'}/>
 
       </div>
-      <div>
+      <div className="w-full flex flex-col gap-[32px]">
         {work.map((el, index) => (
           <Work
             key={index}

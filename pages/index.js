@@ -13,12 +13,12 @@ export default function Home() {
       <Wrapper >
         <Hero />
         <WhoWeAre />
-        {/* <OurWork /> */}
+        <OurWork />
         <WhatWeDo />
         <OurTeam />
         <Partners />
         <ContactUs />
-        {/* <Footer /> */}
+        <Footer />
       </Wrapper>
     </>
   );

@@ -1,5 +1,5 @@
 import Title from "../ui/Title";
-import work from "../../data/ourWork";
+import projects from "../../data/projects";
 import Work from "../cards/Work";
 
 const OurWork = () => {
@@ -10,7 +10,7 @@ const OurWork = () => {
 
       </div>
       <div className="w-full flex flex-col gap-8">
-        {work.map((el, index) => (
+        {projects.map((el, index) => (
           <Work
             key={index}
             title={el.title}

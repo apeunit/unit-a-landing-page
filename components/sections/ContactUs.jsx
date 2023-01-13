@@ -9,7 +9,7 @@ const ContactUs = () => {
                 <p className="text-center text-white/90">Are you looking for a consultancy partnership to address your blockchain challenges? We{"’"}d love to hear from you.  Let{"’"}s build something <br />
                     amazing together.</p>
             </div>
-            <LargeButton text="Schedule a call" styleSpan="mt-0.125" style="text-xl" hasArrow={true} />
+            <LargeButton text="Schedule a call" styleSpan="mt-0.125" style="text-xl" hasArrow={true} directLink="mailto: u2467@apeunit.com"/>
         </section>
     );
 }

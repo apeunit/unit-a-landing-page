@@ -6,8 +6,8 @@ import { H4 } from '../ui/Headings';
 
 const WhatWeDo = ({index, title, description, image}) => {
     const boxVariant = {
-        visible: { opacity: 1, scale: 1, x: 0, transition: {duration: 0.5} },
-        hidden: { opacity: 0, scale: 0, x: index % 2 == 0 ? 200 : -200 },
+        visible: { opacity: 1, scale: 1, x: 0 , transition: {duration: 0.5} },
+        hidden: { opacity: 0, scale: 0, x: index % 2 == 0 ? 100 : -100 },
     }
     
     const control = useAnimation()

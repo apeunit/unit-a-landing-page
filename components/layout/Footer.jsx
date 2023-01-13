@@ -5,7 +5,7 @@ import { P } from "../ui/Headings";
 
 const Footer = () => {
   return (
-    <footer className="flex  text-3xl text-white flex-col md:flex-row md:justify-between mb-12 mt-10.5 md:mt-26">
+    <footer className="flex text-3xl text-white flex-col md:flex-row md:justify-between mb-12 mt-10.5 md:mt-26">
       <div className="space-y-2">
         <P text="Ape Unit GmbH" />
         <P text="Waldemarstraße 38," />
@@ -18,7 +18,7 @@ const Footer = () => {
           </Anchor>
         ))}
       </div>
-      <Link href="https://apeunit.com/impressum.txt">
+      <Link href="https://apeunit.com/impressum.txt" target='_blank'>
         <P styles="pt-10 md:pt-0" text="Impressum/Privacy" />
       </Link>
     </footer>

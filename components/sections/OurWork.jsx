@@ -16,6 +16,7 @@ const OurWork = () => {
             title={el.title}
             text={el.description}
             imageSrc2={el.image}
+            directLink={el.visitLink}
           />
         ))}
       </div>

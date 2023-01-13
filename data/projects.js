@@ -5,12 +5,14 @@ const projects = [
     description:
       "A pioneering technology company specializing in decentralized technologies that creates end-to-end digital experiences for protocols including Ethereum, Tezos, Near, Algorand, Celo and more.",
     image: "/assets/images/Unit8.jpg",
+    visitLink: "https://u8-landing.netlify.app/"
   },
   {
     id: 2,
     title: "Lab3",
     description: "A web3 knowledge exchange community for music makers",
     image: "/assets/images/Lab3.jpg",
+    visitLink: "http://lab3.space/"
   },
 ];
 export default projects;

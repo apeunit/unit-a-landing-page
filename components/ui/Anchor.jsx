@@ -3,7 +3,7 @@ import { P } from "./Headings";
 
 const Anchor = ({ href, children }) => {
   return (
-    <Link href={href}>
+    <Link href={href} target='_blank'>
       <P text={children} />
     </Link>
   );

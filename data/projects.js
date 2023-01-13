@@ -1,4 +1,4 @@
-const work = [
+const projects = [
   {
     id: 1,
     title: "Unit 8",
@@ -13,4 +13,4 @@ const work = [
     image: "/assets/images/Lab3.jpg",
   },
 ];
-export default work;
+export default projects;

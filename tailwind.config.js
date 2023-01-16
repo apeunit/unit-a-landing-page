@@ -38,7 +38,7 @@ module.exports = {
       },
 
       letterSpacing: {
-        tightest: "0.15",
+        0.6: "0.15",
       },
 
       lineHeight: {

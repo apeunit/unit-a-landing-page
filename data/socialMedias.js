@@ -1,4 +1,4 @@
-const anchors= [
+const socialMedias= [
     {
         link: "https://twitter.com/apeunit",
         content: "Twitter",
@@ -13,4 +13,4 @@ const anchors= [
     },
 ]
 
-export default anchors;
+export default socialMedias;

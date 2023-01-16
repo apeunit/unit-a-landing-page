@@ -12,7 +12,7 @@ const ContactUs = () => {
                 </div>
 
             </div>
-            <LargeButton text="Schedule a call" styleSpan="mt-0.13" style="text-xl" hasArrow={true} directLink="mailto: u2467@apeunit.com" />
+            <LargeButton text="Schedule a call" styleSpan="mt-0.13" style="text-xl" hasArrow={true} redirectLink="mailto: u2467@apeunit.com"/>
         </section>
     );
 }

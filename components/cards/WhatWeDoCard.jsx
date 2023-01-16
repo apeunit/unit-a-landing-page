@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import Image from 'next/image'
 import { Heading4 } from '../ui/Headings';
 
-const WhatWeDo = ({index, title, description, image}) => {
+const WhatWeDoCard = ({index, title, description, image}) => {
     const boxVariant = {
         visible: { opacity: 1, scale: 1, x: 0 , transition: {duration: 0.5} },
         hidden: { opacity: 0, scale: 0, x: index % 2 == 0 ? 100 : -100 },
@@ -14,11 +14,7 @@ const WhatWeDo = ({index, title, description, image}) => {
     const [ref, inView] = useInView()
 
     useEffect(() => {
-        if (inView) {
-          control.start("visible");
-        } else {
-            control.start("hidden");
-        }
+        inView ? control.start("visible") : control.start("hidden");
     }, [control, inView]);
     
     return (
@@ -32,11 +28,11 @@ const WhatWeDo = ({index, title, description, image}) => {
                 variants={boxVariant}
                 initial="hidden"
                 animate={control}
-                className={`flex w-1/2  items-center md:justify-center order-1`}>
+                className="flex items-center order-1 w-1/2 md:justify-center">
               <Image className={`${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
             </motion.div>
         </div>
     );
 }
 
-export default WhatWeDo;
+export default WhatWeDoCard;

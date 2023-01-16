@@ -28,7 +28,7 @@ const WhatWeDoCard = ({index, title, description, image}) => {
                 variants={boxVariant}
                 initial="hidden"
                 animate={control}
-                className={`flex w-1/2  items-center md:justify-center order-1`}>
+                className="flex items-center order-1 w-1/2 md:justify-center">
               <Image className={`${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
             </motion.div>
         </div>

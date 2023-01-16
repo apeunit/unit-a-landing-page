@@ -30,7 +30,7 @@ export const LargeButton = ({ text, hasArrow, styleSpan, style, hasLink }) => {
       ) : (
         <span className={`-mt-2 ${styleSpan}`}>{text}</span>
       )}
-      {hasArrow && <Arrow style="h-4.1575 w-4.0725 group-hover:rotate-45" />}
+      {hasArrow && <Arrow style="h-4.16 w-4.07 group-hover:rotate-45" />}
     </button>
   );
 };

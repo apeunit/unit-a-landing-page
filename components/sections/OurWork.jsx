@@ -14,8 +14,8 @@ const OurWork = () => {
             key={index}
             title={el.title}
             text={el.description}
-            imageSrc2={el.image}
-            directLink={el.visitLink}
+            imageSrc={el.image}
+            redirectLink={el.visitLink}
           />
         ))}
       </div>

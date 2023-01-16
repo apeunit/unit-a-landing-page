@@ -1,6 +1,6 @@
 import JoinOurTeam from "../components/sections/JoinOurTeam";
 import OurWork from "../components/sections/OurWork";
-import Wrapper from "../components/wrapper/Wrapper";
+import PageWrapper from "../components/wrappers/PageWrapper";
 import Partners from "../components/sections/Partners";
 import WhoWeAre from "../components/sections/WhoWeAre";
 import WhatWeDo from "../components/sections/WhatWeDo";

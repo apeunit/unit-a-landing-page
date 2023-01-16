@@ -9,7 +9,7 @@ import Footer from "../components/layout/Footer";
 import Hero from "../components/sections/Hero";
 const Home = () =>{
   return (
-      <Wrapper >
+      <PageWrapper >
         <Hero />
         <WhoWeAre />
         <OurWork />
@@ -18,7 +18,7 @@ const Home = () =>{
         <Partners />
         <ContactUs />
         <Footer />
-      </Wrapper>
+      </PageWrapper>
   );
 }
 export default Home

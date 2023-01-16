@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { P } from "./Headings";
+import {Paragraph} from "./Headings";
 
 const Anchor = ({ href, children }) => {
   return (
     <Link href={href} target='_blank'>
-      <P text={children} />
+      <Paragraph>{children}</Paragraph>
     </Link>
   );
 };

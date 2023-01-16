@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Anchor from "../ui/Anchor";
-import anchors from "../../data/footerAnchor";
+import socialMedias from "../../data/socialMedias";
 import { Paragraph } from "../ui/Headings";
 
 const Footer = () => {
@@ -12,9 +12,9 @@ const Footer = () => {
         <Paragraph>10999 Berlin</Paragraph>
       </div>
       <div className="flex flex-col pt-12 md:pt-0 ">
-        {anchors.map((anchor, anchorkey) => (
-          <Anchor key={anchorkey} href={anchor.link}>
-            {anchor.content}
+        {socialMedias.map((socialMedia, anchorkey) => (
+          <Anchor key={anchorkey} href={socialMedia.link}>
+            {socialMedia.content}
           </Anchor>
         ))}
       </div>

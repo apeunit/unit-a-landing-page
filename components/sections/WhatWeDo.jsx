@@ -3,7 +3,7 @@ import WhatWeDoCard from "../cards/WhatWeDoCard";
 import Title from "../ui/Title";
 const WhatWeDo = () => {
     return ( 
-        <section className="px-6.5 xl:w-87.38 mx-auto md:px-0">
+        <section className="px-6.5 xl:w-4.37/5 mx-auto md:px-0">
             <Title content="What we do" />
             {
                 offers.map((offer, index) => <WhatWeDoCard {...offer} key={index} index={index} />)

@@ -1,4 +1,4 @@
-import { openings } from "../../data/openings";
+import openings from "../../data/openings";
 import { Heading5 } from "../ui/Headings";
 import Title from "../ui/Title";
 import { WhiteArrow } from "../svgs/Arrow";

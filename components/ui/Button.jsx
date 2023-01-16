@@ -3,7 +3,7 @@ import Link from "next/link";
 export const DefaultButton = ({ text, hasArrow, style, hasLink, directLink }) => {
   return (
     <button
-      className={`bg-white rounded-8xl py-3 px-12 text-black font-normal tracking-tightest text-2xl flex lg:justify-between items-center lg:gap-x-9.75 group hover:px-8 duration-500 ${style}`}
+      className={`bg-white rounded-8 py-3 px-12 text-black font-normal tracking-tightest text-2xl flex lg:justify-between items-center lg:gap-x-9.75 group hover:px-8 duration-500 ${style}`}
     >
       {hasLink ? (
         <Link href={directLink} target='_blank'>
@@ -21,7 +21,7 @@ export const DefaultButton = ({ text, hasArrow, style, hasLink, directLink }) =>
 export const LargeButton = ({ text, hasArrow, styleSpan, style, hasLink }) => {
   return (
     <button
-      className={`bg-white rounded-8xl py-4 px-12 text-black font-normal tracking-tightest text-3xl flex justify-between items-center gap-x-9.75 group hover:px-8 duration-500 ${style}`}
+      className={`bg-white rounded-8 py-4 px-12 text-black font-normal tracking-tightest text-3xl flex justify-between items-center gap-x-9.75 group hover:px-8 duration-500 ${style}`}
     >
       {hasLink ? (
         <Link href={directLink} tagert='_blank'>

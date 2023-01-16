@@ -61,6 +61,7 @@ module.exports = {
         3.168: "0.792rem",
         4.15: "1.0375rem",
         4.75: "1.1875rem",
+        4.85: "1.2125rem",
         6.332: "1.583rem",
         6.5: "1.625rem",
         7.5:"1.875rem",
@@ -95,10 +96,6 @@ module.exports = {
         30.75:"7.688rem",
         32.75:"8.1875rem",
         59.5: "14.875rem"
-      },
-
-      borderRadius: {
-        "8xl": "2rem", 
       },
 
       width: {
@@ -148,7 +145,7 @@ module.exports = {
         8.25: "2.063rem",
         9.5: "2.375rem",
         20: "5rem",
-        40 : "10rem",
+        40: "10rem",
         43.675: "10.91873rem",
         44.75: "11.1875rem",
         48.25: "12.0625rem", 
@@ -165,11 +162,7 @@ module.exports = {
       },
 
       borderRadius: {
-        "8xl": "2rem", 
-      },
-
-      gap: {
-        4.85: "1.2125rem",
+        8: "2rem", 
       },
 
       fontFamily: {

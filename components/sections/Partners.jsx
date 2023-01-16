@@ -1,6 +1,6 @@
 import Title from "../ui/Title";
 import Image from "next/image";
-import logo from "../../data/logos";
+import logo from "/data/logos";
 import Link from "next/link";
 const Partners = () => {
   return (
@@ -19,7 +19,6 @@ const Partners = () => {
               height={el.Height}
               src={el.source}
               alt="logo"
-              
               className="mx-3 my-2"
             />
             </Link>

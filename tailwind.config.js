@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        unit8: "url('/assets/images/unit8(1).svg')",
+        unit8: "url('/assets/images/unit8-project.svg')",
         lab3: "url('/assets/images/Lab3.jpg')",
         "hero-pattern": "url('/assets/images/rectangle.svg')",
       },

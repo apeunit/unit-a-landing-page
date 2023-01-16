@@ -2,12 +2,10 @@ const openings = [
     {
         id: 1,
         title: "Business Analyst",
-
     },
     {
         id: 2,
         title: "Frontend Engineer",
-
     },
     {
         id: 3,

@@ -1,8 +1,8 @@
-import {H2} from '../ui/Headings'
-const Title = ({content, styles}) => {
+import {Heading2} from '../ui/Headings'
+const Title = ({children, className}) => {
     return (
-        <div className={`bg-center text-white bg-hero-pattern bg-no-repeat max-w-max ${styles}`}>
-            <H2 text={content} styles='pb-11.75'></H2>
+        <div className={`bg-center text-white bg-hero-pattern bg-no-repeat max-w-max ${className}`}>
+            <Heading2 className='pb-11.75'>{children}</Heading2>
         </div>
     );
 }

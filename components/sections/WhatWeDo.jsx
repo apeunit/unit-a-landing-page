@@ -4,7 +4,7 @@ import Title from "../ui/Title";
 const WhatWeDo = () => {
     return ( 
         <section className="px-6.5 xl:w-4.37/5 mx-auto md:px-0">
-            <Title content="What we do" />
+            <Title>What we do </Title>
             {
                 offers.map((offer, index) => <WhatWeDoCard {...offer} key={index} index={index} />)
             }
@@ -14,4 +14,3 @@ const WhatWeDo = () => {
 }
 
 export default WhatWeDo;
-// mb-12.5 lg:mb-30.75

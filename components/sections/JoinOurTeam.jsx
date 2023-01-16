@@ -9,7 +9,7 @@ const JoinOurTeam = () => {
             {openings.map((opening, index) => {
                 return (
                     <div key={index} className={`group flex items-center justify-between gap-4.85 border-b-2 border-primary-800 py-6 ${opening.id === 1 ? "border-t-2" : ""}`}>
-                        <Heading5 className="text-white w-69.25 md:w-auto">{role.title}</Heading5>
+                        <Heading5 className="text-white w-69.25 md:w-auto">{opening.title}</Heading5>
                         <WhiteArrow style="group-hover:rotate-45" />
                     </div>
                 )

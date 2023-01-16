@@ -7,10 +7,8 @@ import WhatWeDo from "../components/sections/WhatWeDo";
 import ContactUs from "../components/sections/ContactUs";
 import Footer from "../components/layout/Footer";
 import Hero from "../components/sections/Hero";
-export default function Home() {
+const Home = () =>{
   return (
-    
-    <>
       <Wrapper >
         <Hero />
         <WhoWeAre />
@@ -21,6 +19,6 @@ export default function Home() {
         <ContactUs />
         <Footer />
       </Wrapper>
-    </>
   );
 }
+export default Home

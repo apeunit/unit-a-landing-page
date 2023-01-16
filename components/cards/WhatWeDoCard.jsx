@@ -14,11 +14,7 @@ const WhatWeDo = ({index, title, description, image}) => {
     const [ref, inView] = useInView()
 
     useEffect(() => {
-        if (inView) {
-          control.start("visible");
-        } else {
-            control.start("hidden");
-        }
+        inView ? control.start("visible") : control.start("hidden");
     }, [control, inView]);
     
     return (

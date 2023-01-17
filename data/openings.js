@@ -1,15 +1,11 @@
-export const openings = [
-
-
+const openings = [
     {
         id: 1,
         title: "Business Analyst",
-
     },
     {
         id: 2,
         title: "Frontend Engineer",
-
     },
     {
         id: 3,
@@ -19,5 +15,6 @@ export const openings = [
         id: 4,
         title: "Senior Project Manager ",
     },
+];
 
-]
+export default openings;

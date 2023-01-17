@@ -12,8 +12,8 @@ const Footer = () => {
         <Paragraph>10999 Berlin</Paragraph>
       </div>
       <div className="flex flex-col pt-12 md:pt-0 ">
-        {socialMedias.map((socialMedia, anchorkey) => (
-          <Anchor key={anchorkey} href={socialMedia.link}>
+        {socialMedias.map((socialMedia, index) => (
+          <Anchor key={index} href={socialMedia.link}>
             {socialMedia.content}
           </Anchor>
         ))}

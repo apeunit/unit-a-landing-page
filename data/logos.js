@@ -1,4 +1,4 @@
-const logo =[
+const logos =[
     {
         id:1,
         source:'/assets/images/CELO.svg',
@@ -62,6 +62,6 @@ const logo =[
         Height:'60',
         link:'https://u8-landing.netlify.app/'
     }
-]
+];
 
-export default logo
+export default logos;

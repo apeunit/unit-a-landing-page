@@ -9,13 +9,13 @@ const OurWork = () => {
       <Title className={'lg:ml-24 ml-0'}>Our Work</Title>
       </div>
       <div className="flex flex-col w-full gap-8">
-        {projects.map((el, index) => (
+        {projects.map((project, index) => (
           <Work
             key={index}
-            title={el.title}
-            text={el.description}
-            imageSrc={el.image}
-            redirectLink={el.visitLink}
+            title={project.title}
+            text={project.description}
+            imageSrc={project.image}
+            redirectLink={project.visitLink}
           />
         ))}
       </div>

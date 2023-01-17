@@ -1,4 +1,4 @@
-import DefaultButton from "../ui/DefaultButton";
+import DefaultButton from "../ui/buttons/DefaultButton";
 import { Heading5 } from "../ui/Headings";
 import Title from '../ui/Title'
 const WhoWeAre = () => {

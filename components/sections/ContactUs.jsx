@@ -7,12 +7,11 @@ const ContactUs = () => {
             <div className="xl:w-3.73/5">
                 <Heading3 className="text-center text-white text-11.75">Ready to talk about your project?</Heading3>
                 <div>
-                    <p className="text-center text-white/90 ">Are you looking for a consultancy partnership to address your blockchain challenges? We{"’"}d love to hear from you.  Let{"’"}s build something</p>
-                    <p className="text-center text-white/90 ">amazing together.</p>
+                    <p className="text-center text-white/90">Are you looking for a consultancy partnership to address your blockchain challenges? We{"’"}d love to hear from you.  Let{"’"}s build something</p>
+                    <p className="text-center text-white/90">amazing together.</p>
                 </div>
-
             </div>
-            <LargeButton text="Schedule a call" styleSpan="mt-0.13" style="text-xl" hasArrow={true} redirectLink="mailto: u2467@apeunit.com"/>
+            <LargeButton text="Schedule a call" styleSpan="mt-0.13" hasArrow={true} redirectLink="mailto: u2467@apeunit.com" />
         </section>
     );
 }

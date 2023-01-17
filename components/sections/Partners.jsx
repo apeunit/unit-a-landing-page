@@ -2,6 +2,7 @@ import Title from "../ui/Title";
 import Image from "next/image";
 import logos from "/data/logos";
 import Link from "next/link";
+
 const Partners = () => {
   return (
     <div className="flex flex-col items-center justify-center lg:mt-12.5 md:mt-3.5 mt-5 mb-7.5 lg:mb-15.25">

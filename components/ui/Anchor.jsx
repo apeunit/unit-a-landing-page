@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {Paragraph} from "./Headings";
+import { Paragraph } from "./Headings";
 
 const Anchor = ({ href, children }) => {
   return (

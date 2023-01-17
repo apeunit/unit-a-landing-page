@@ -9,7 +9,9 @@ const Work = ({ text, title, imageSrc, redirectLink }) => {
       <div className="xl:w-162.5 xl:px-5 md:w-150">
         <Heading3 className="text-white">{title}</Heading3>
         <Paragraph className="text-secondary-200 leading-11.25 mb-6 w-full">{text}</Paragraph>
-        <DefaultButton text="Visit" hasArrow={true} style='gap-x-3' hasLink={true} redirectLink={redirectLink} />
+        <div className="w-44.75">
+          <DefaultButton text="Visit" hasArrow={true} style='gap-x-3 w-full' redirectLink={redirectLink} />
+        </div>
       </div>
       <div
         className={`lg:block w-157.5 flex justify-end lg:h-102 mt-10

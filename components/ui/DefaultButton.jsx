@@ -1,3 +1,6 @@
+import { Arrow } from "../svgs/Arrow";
+import Link from "next/link";
+
 const DefaultButton = ({ text, hasArrow, style, hasLink, redirectLink }) => {
     return (
         <button
@@ -13,7 +16,7 @@ const DefaultButton = ({ text, hasArrow, style, hasLink, redirectLink }) => {
     
           {hasArrow && <Arrow style="group-hover:rotate-45" />}
         </button>
-      );
+    );
 }
  
 export default DefaultButton;

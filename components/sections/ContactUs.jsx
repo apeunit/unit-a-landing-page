@@ -1,4 +1,4 @@
-import { LargeButton } from "../ui/Button";
+import LargeButton from "../ui/LargeButton";
 import { Heading3 } from "../ui/Headings";
 
 const ContactUs = () => {

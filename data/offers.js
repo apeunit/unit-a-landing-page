@@ -3,7 +3,6 @@ import ballImage from "../public/assets/images/ball.webp";
 import arcImage from "../public/assets/images/arc.webp";
 import diamondImage from "../public/assets/images/diamond.webp";
 
-
 const offers = [
     {
         title: "Blockchain is the internet for cooperation",

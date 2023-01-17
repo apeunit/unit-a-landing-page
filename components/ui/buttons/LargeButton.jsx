@@ -1,9 +1,8 @@
 import Link from "next/link";
-import Arrow  from "../../svgs/Arrow";
-
+import Arrow from "../../svgs/Arrow";
 
 const LargeButton = ({ text, hasArrow, styleSpan, className, hasLink, redirectLink }) => {
-    return ( 
+    return (
         <Link href={redirectLink} tagert="_blank">
             <button
                 className={`bg-white w-75 md:w-95.5 mx-auto h-17.5 rounded-8 py-4 px-6.5  gap-x-4 md:px-12 text-black font-normal tracking-0.6 text-3xl flex justify-between items-center group hover:px-8 duration-500 ${className}`}
@@ -18,5 +17,5 @@ const LargeButton = ({ text, hasArrow, styleSpan, className, hasLink, redirectLi
         </Link>
     );
 }
- 
+
 export default LargeButton;

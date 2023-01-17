@@ -19,7 +19,7 @@ const Footer = () => {
         ))}
       </div>
       <Link href="https://apeunit.com/impressum.txt" target='_blank'>
-        <Paragraph className="pt-10 md:pt-0">Impressum/Privacy</Paragraph> 
+        <Paragraph className="pt-10 md:pt-0">Impressum/Privacy</Paragraph>
       </Link>
     </footer>
   );

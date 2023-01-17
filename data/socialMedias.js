@@ -1,4 +1,4 @@
-const socialMedias= [
+const socialMedias = [
     {
         link: "https://twitter.com/apeunit",
         content: "Twitter",

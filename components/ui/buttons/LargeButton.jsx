@@ -2,18 +2,18 @@ import Link from "next/link";
 import Arrow  from "../../svgs/Arrow";
 
 
-const LargeButton = ({ text, hasArrow, styleSpan, style, hasLink, redirectLink }) => {
+const LargeButton = ({ text, hasArrow, styleSpan, className, hasLink, redirectLink }) => {
     return ( 
         <Link href={redirectLink} tagert="_blank">
             <button
-                className={`bg-white h-17.5 rounded-8 py-4 px-12 text-black font-normal tracking-0.6 text-3xl flex justify-between items-center gap-x-9.75 group hover:px-8 duration-500 ${style}`}
+                className={`bg-white w-75 md:w-95.5 mx-auto h-17.5 rounded-8 py-4 px-6.5  gap-x-4 md:px-12 text-black font-normal tracking-0.6 text-3xl flex justify-between items-center group hover:px-8 duration-500 ${className}`}
             >
                 {hasLink ? (
                     <span>{text}</span>
                 ) : (
                     <span className={`${styleSpan}`}>{text}</span>
                 )}
-                {hasArrow && <Arrow style="h-4.16 w-4.07 group-hover:rotate-45" />}
+                {hasArrow && <Arrow className="h-4.16 w-4.07 group-hover:rotate-45" />}
             </button>
         </Link>
     );

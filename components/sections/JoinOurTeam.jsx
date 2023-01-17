@@ -1,7 +1,7 @@
 import openings from "/data/openings";
 import { Heading5 } from "../ui/Headings";
 import Title from "../ui/Title";
-import { WhiteArrow } from "../svgs/Arrow";
+import WhiteArrow  from "../svgs/WhiteArrow";
 const JoinOurTeam = () => {
     return (
         <section className="py-10 md:px-0 xl:w-4.37/5 mx-auto w-full px-6.5">

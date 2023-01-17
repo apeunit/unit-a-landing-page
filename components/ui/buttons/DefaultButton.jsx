@@ -1,5 +1,6 @@
-import { Arrow } from "../../svgs/Arrow";
 import Link from "next/link";
+import Arrow from "../../svgs/Arrow";
+
 
 const DefaultButton = ({ text, hasArrow, style, hasLink, redirectLink }) => {
     return (

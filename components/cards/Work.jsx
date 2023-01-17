@@ -14,7 +14,7 @@ const Work = ({ text, title, imageSrc, redirectLink }) => {
       <div
         className={`lg:block w-157.5 flex justify-end lg:h-102 mt-10
         ${title === "Unit 8" ? "bg-unit8" : "bg-lab3"} bg-no-repeat rounded`}
-      ></div>
+      />
       <div
         className="lg:hidden relative h-48.5 mt-10 w-auto
           rounded lg:mx-10 xl:mx-5 md:w-212.5 md:h-115.75"

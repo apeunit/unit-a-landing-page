@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Heading3 } from "../ui/Headings";
-import { Paragraph } from "../ui/Headings";
+import { Heading3, Paragraph } from "../ui/Typography";
 import DefaultButton from "../ui/buttons/DefaultButton";
 
 const Work = ({ text, title, imageSrc, redirectLink }) => {

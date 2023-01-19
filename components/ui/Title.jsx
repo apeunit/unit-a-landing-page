@@ -1,4 +1,4 @@
-import { Heading2 } from '../ui/Headings'
+import { Heading2 } from '../ui/Typography'
 const Title = ({ children, className }) => {
     return (
         <div className={`bg-center text-white bg-hero-pattern bg-no-repeat max-w-max ${className}`}>

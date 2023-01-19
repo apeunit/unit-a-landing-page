@@ -1,5 +1,5 @@
 import Title from "../ui/Title";
-import projects from "../../data/projects";
+import projects from "/data/projects";
 import Work from "../cards/Work";
 
 const OurWork = () => {

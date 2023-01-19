@@ -2,10 +2,10 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import Image from 'next/image'
-import { Heading4 } from '../ui/Headings';
+import { Heading4 } from '../ui/Typography';
 
 const WhatWeDoCard = ({ index, title, description, image }) => {
-    const boxVariant = {
+    const boxVariants = {
         visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.5 } },
         hidden: { opacity: 0, scale: 0, x: index % 2 == 0 ? 100 : -100 },
     }
@@ -25,7 +25,7 @@ const WhatWeDoCard = ({ index, title, description, image }) => {
             </div>
             <motion.div
                 ref={ref}
-                variants={boxVariant}
+                variants={boxVariants}
                 initial="hidden"
                 animate={control}
                 className="flex items-center order-1 w-1/2 md:justify-center">

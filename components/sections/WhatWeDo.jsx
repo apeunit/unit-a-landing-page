@@ -1,4 +1,4 @@
-import offers from "../../data/offers";
+import offers from "/data/offers";
 import WhatWeDoCard from "../cards/WhatWeDoCard";
 import Title from "../ui/Title";
 const WhatWeDo = () => {

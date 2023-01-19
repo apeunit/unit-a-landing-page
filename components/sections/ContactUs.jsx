@@ -1,5 +1,5 @@
 import LargeButton from "../ui/buttons/LargeButton";
-import { Heading3 } from "../ui/Headings";
+import { Heading3 } from "../ui/Typography";
 
 const ContactUs = () => {
     return (

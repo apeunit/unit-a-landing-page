@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Heading4 } from "../ui/Headings";
 import HeroBall from "/public/assets/images/hero-ball.webp";
 import HeroPrism from "/public/assets/images/hero-prism.webp";
@@ -31,9 +30,7 @@ const Hero = () => {
 
             <div className="flex justify-center lg:grid lg:grid-cols-2 ml-4.75 items-center">
                 <Image src={HeroPrism} className="hidden lg:block" alt="Prism" />
-                <Link href="#">
-                    <Image src={downArrow} alt='Scroll' />
-                </Link>
+                <Image src={downArrow} alt='Scroll' />
             </div>
         </section>
     );

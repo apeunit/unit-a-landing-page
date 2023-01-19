@@ -16,7 +16,7 @@ const Hero = () => {
         className="self-end lg:mr-15.15 hidden lg:flex"
         alt="Hero Ball"
       />
-      <h3 className="font-semibold md:text-14.75 text-3xl lg:leading-22.13 leading-14.25 text-white mt-12.5 lg:mt-4.15 mb-23 w-full lg:w-239 xl:w-295.25 md:w-239 xl:ml-19.75 mx-auto">
+      <h3 className="font-semibold md:text-14.75 text-9.5 lg:leading-22.13 leading-14.25 text-white mt-12.5 lg:mt-4.15 mb-23 w-full lg:w-239 xl:w-295.25 md:w-239 xl:ml-19.75 mx-auto">
         <span>A </span>
         <p className="inline-flex">
           <span className="relative">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Anchor from "../ui/Anchor";
-import socialMedias from "../../data/socialMedias";
-import { Paragraph } from "../ui/Headings";
+import socialMedias from "/data/socialMedias";
+import { Paragraph } from "../ui/Typography";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         <Paragraph>Waldemarstraße 38,</Paragraph>
         <Paragraph>10999 Berlin</Paragraph>
       </div>
-      <div className="flex flex-col pt-12 md:pt-0 ">
+      <div className="flex flex-col pt-12 md:pt-0">
         {socialMedias.map((socialMedia, index) => (
           <Anchor key={index} href={socialMedia.link}>
             {socialMedia.content}

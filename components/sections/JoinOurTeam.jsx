@@ -1,5 +1,5 @@
 import openings from "/data/openings";
-import { Heading5 } from "../ui/Headings";
+import { Heading5 } from "../ui/Typography";
 import Title from "../ui/Title";
 import WhiteArrow from "../svgs/WhiteArrow";
 

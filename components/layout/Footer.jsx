@@ -5,13 +5,13 @@ import { Paragraph } from "../ui/Typography";
 
 const Footer = () => {
   return (
-    <footer className="flex text-3xl text-white flex-col md:flex-row md:justify-between mb-12 mt-10.5 md:mt-26">
-      <div className="space-y-2">
+    <footer className="flex text-3xl text-white flex-col md:flex-row md:justify-between mb-31.25 mt-10.5 md:mt-57.25">
+      <div className="space-y-2.5">
         <Paragraph>Ape Unit GmbH</Paragraph>
         <Paragraph>Waldemarstraße 38,</Paragraph>
         <Paragraph>10999 Berlin</Paragraph>
       </div>
-      <div className="flex flex-col pt-12 md:pt-0">
+      <div className="flex flex-col pt-12 md:pt-0 space-y-2.5">
         {socialMedias.map((socialMedia, index) => (
           <Anchor key={index} href={socialMedia.link}>
             {socialMedia.content}

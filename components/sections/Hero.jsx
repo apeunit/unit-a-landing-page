@@ -29,7 +29,7 @@ const Hero = () => {
                 </p>
             </h3>
 
-            <div className="flex justify-center lg:grid lg:grid-cols-2 ml-4.75">
+            <div className="flex justify-center lg:grid lg:grid-cols-2 ml-4.75 items-center">
                 <Image src={HeroPrism} className="hidden lg:block" alt="Prism" />
                 <Link href="#">
                     <Image src={downArrow} alt='Scroll' />

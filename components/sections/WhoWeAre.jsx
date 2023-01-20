@@ -1,5 +1,5 @@
 import DefaultButton from "../ui/buttons/DefaultButton";
-import { Heading5 } from "../ui/Headings";
+import { Heading5 } from "../ui/Typography";
 import Title from '../ui/Title'
 const WhoWeAre = () => {
   return (

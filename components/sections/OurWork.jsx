@@ -4,7 +4,7 @@ import Work from "../cards/Work";
 
 const OurWork = () => {
   return (
-    <div className="flex flex-col mt-6 lg:mt-24 mb-7.5 lg:mb-16">
+    <div className="flex flex-col mt-6 lg:mt-36 mb-7.5 lg:mb-16">
       <div>
         <Title className="lg:ml-24 ml-0">Our Work</Title>
       </div>

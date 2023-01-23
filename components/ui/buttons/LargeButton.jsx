@@ -10,7 +10,7 @@ const LargeButton = ({ text, hasArrow, styleSpan, className, hasLink, redirectLi
                 {hasLink ? (
                     <span>{text}</span>
                 ) : (
-                    <span className={`${styleSpan}`}>{text}</span>
+                    <span className={styleSpan}>{text}</span>
                 )}
                 {hasArrow && <Arrow className="h-4.16 w-4.07 group-hover:rotate-45" />}
             </button>

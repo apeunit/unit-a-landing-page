@@ -5,7 +5,7 @@ import { Paragraph } from "../ui/Typography";
 
 const Footer = () => {
   return (
-    <footer className="flex text-3xl text-white flex-col md:flex-row md:justify-between mb-31.25 mt-10.5 md:mt-57.25">
+    <footer className="flex text-3xl text-white flex-col md:flex-row md:justify-between mb-8 md:mb-26 mt-10.5 md:mt-36.25">
       <div className="space-y-2.5">
         <Paragraph>Ape Unit GmbH</Paragraph>
         <Paragraph>Waldemarstraße 38,</Paragraph>

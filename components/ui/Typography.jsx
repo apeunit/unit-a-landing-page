@@ -6,7 +6,7 @@ export const Heading1 = ({ children, className }) => {
 
 export const Heading2 = ({ children, className }) => {
     return (
-        <h2 className={`font-medium md:text-18.25 md:leading-27.34 leading-22.13 text-14.75 ${className}`}>{children}</h2>
+        <h2 className={`font-bold md:text-18.25 md:leading-22.75 leading-18.5 text-14.75 ${className}`}>{children}</h2>
     )
 }
 
@@ -24,7 +24,7 @@ export const Heading4 = ({ children, className }) => {
 
 export const Heading5 = ({ children, className }) => {
     return (
-        <h5 className={`font-medium md:text-9.5 md:leading-14.25 leading-11.25 text-2xl ${className}`}>{children}</h5>
+        <h5 className={`font-medium md:text-9.5 md:leading-12 leading-7.5 text-2xl ${className}`}>{children}</h5>
     )
 }
 

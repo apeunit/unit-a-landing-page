@@ -1,6 +1,5 @@
 import DefaultButton from "../ui/buttons/DefaultButton";
 import { Heading2, Heading3 } from "../ui/Typography";
-import Title from '../ui/Title'
 const WhoWeAre = () => {
   return (
     <section className="flex gap-5 lg:gap-8.75 xl:gap-4.5 flex-col md:px-2 xl:px-0 xl:w-4.38/5 mx-auto">

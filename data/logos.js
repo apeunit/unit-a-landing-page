@@ -60,7 +60,7 @@ const logos = [
         source: '/assets/images/unit8.svg',
         Width: '124',
         Height: '60',
-        link: 'https://u8-landing.netlify.app/'
+        link: 'https://unit8.apeunit.com/'
     }
 ];
 

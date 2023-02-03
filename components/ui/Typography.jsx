@@ -25,6 +25,6 @@ export const Heading4 = ({ children, className }) => {
 
 export const Paragraph = ({ children, className }) => {
     return (
-        <p className={`font-normal leading-4.95 md:leading-7.5 text-4.5 md:text-6 tracking-0.015 ${className}`}>{children}</p>
+        <p className={`font-normal leading-4.95 md:leading-7.5 text-4.5 md:text-6 -tracking-0.015 ${className}`}>{children}</p>
     )
 }

@@ -5,7 +5,7 @@ const projects = [
     description:
       "A pioneering technology company specializing in decentralized technologies that creates end-to-end digital experiences for protocols including Ethereum, Tezos, Near, Algorand, Celo and more.",
     image: "/assets/images/Unit8.jpg",
-    visitLink: "https://u8-landing.netlify.app/"
+    visitLink: "https://unit8.apeunit.com/"
   },
   {
     id: 2,

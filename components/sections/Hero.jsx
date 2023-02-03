@@ -28,7 +28,7 @@ const Hero = () => {
           </span>
         </p>
         <span>
-          etween African & European developers & organizations working in{" "}
+          etween African & European developers & organizations working in
         </span>
         <p className="inline-flex">
           <span className="relative">

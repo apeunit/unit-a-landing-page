@@ -1,7 +1,7 @@
 const logos = [
     {
         id: 1,
-        source: '/assets/images/celo.svg',
+        source: '/assets/images/CELO.svg',
         Width: '120',
         Height: '59',
         link: 'https://celo.org/'

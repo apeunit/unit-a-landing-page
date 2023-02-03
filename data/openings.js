@@ -1,19 +1,8 @@
 const openings = [
     {
         id: 1,
-        title: "Business Analyst",
-    },
-    {
-        id: 2,
-        title: "Frontend Engineer",
-    },
-    {
-        id: 3,
-        title: "Python Developer",
-    },
-    {
-        id: 4,
-        title: "Senior Project Manager ",
+        title: "Senior Frontend Developer",
+        link: "https://apeunit.notion.site/Senior-Frontend-Developer-042048a56ba54beebefc4e51f67a5925"
     },
 ];
 

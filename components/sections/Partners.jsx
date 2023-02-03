@@ -1,15 +1,15 @@
 import Image from "next/image";
 import logos from "/data/logos";
 import Link from "next/link";
-import { Heading2 } from "../ui/Typography";
+import { Heading2, Paragraph } from "../ui/Typography";
 
 const Partners = () => {
   return (
-    <div className="flex flex-col items-center justify-center lg:mt-12.5 md:mt-3.5 mt-5 mb-7.5 lg:mb-15.25">
+    <div className="flex flex-col items-center justify-center mb-13.5 md:mb-35">
       <Heading2>Partners</Heading2>
-      <p className="-mt-12 text-center text-secondary-200">
+      <Paragraph className="text-center text-secondary-200">
         We partner with the leading brands
-      </p>
+      </Paragraph>
       <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-59.5">
         {logos.map((logo, index) => {
           return (

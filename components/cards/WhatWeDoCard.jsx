@@ -1,37 +1,83 @@
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 import { Heading4 } from '../ui/Typography';
+import polygon from '../../public/assets/images/polygon.webp'
+import ballImage from "/public/assets/images/ball.webp";
+import arcImage from "/public/assets/images/arc.webp";
+import diamondImage from "/public/assets/images/diamond.webp";
 
-const WhatWeDoCard = ({ index, title, description, image }) => {
-    const boxVariants = {
-        visible: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.5 } },
-        hidden: { opacity: 0, scale: 0, x: index % 2 == 0 ? 100 : -100 },
-    }
+ 
 
-    const control = useAnimation()
-    const [ref, inView] = useInView()
+
+const WhatWeDoCard = ({ title, image }) => {
+    const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        inView ? control.start("visible") : control.start("hidden");
-    }, [control, inView]);
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+          }
+        });
+      });
+  
+      const target = document.querySelector('.anim1');
+      console.log(target)
+      observer.observe(target);
+  
+      return () => {
+        observer.disconnect();
+      };
+    }, []);
+  
 
     return (
-        <div className='flex flex-col md:flex md:flex-row md:justify-between gap-8 md:grid-cols-2 py-8 md:py-14.25 md:mt-12.5'>
-            <div className={`md:w-3/4 lg:w-153.5 xl:w-141.25 space-y-4 order-2 ${index % 2 !== 0 ? 'md:order-2' : 'md:order-1'}`}>
-                <Heading4 className="xl:w-141.25">{title}</Heading4>
-                <p>{description}</p>
-            </div>
-            <motion.div
-                ref={ref}
-                variants={boxVariants}
-                initial="hidden"
-                animate={control}
-                className="flex items-center order-1 w-1/2 md:justify-center">
-                <Image className={`${index % 2 !== 0 ? 'md:order-1' : 'md:order-2'}`} src={image} alt="image" />
-            </motion.div>
+        <div className='flex flex-col'>
+        <div className='flex flex-col md:flex md:flex-row md:justify-between  gap-8 md:grid-cols-2 py-8 md:py-14.25 md:mt-12.5'>
+        <div className='md:w-3/4 lg:w-153.5 xl:w-141.25 space-y-4 order-2'>
+            <Heading4 text={title}/>
+            <p>We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate.</p>
         </div>
+        <div className={`flex w-1/2 items-center md:justify-center order-1`}>
+          {/* <Image className={` anim1 ${index % 2 !== 0 && isVisible ? 'md:order-1 anim' : 'md:order-2'}`} src={image} alt="image" /> */}
+          <Image className={`anim1 ${isVisible? 'anim': ''}`} src={polygon} alt="image" /> 
+        </div>
+        
+    </div>
+    <div className='flex flex-col md:flex md:flex-row md:justify-between  gap-8 md:grid-cols-2 py-8 md:py-14.25 md:mt-12.5'>
+        <div className='md:w-3/4 lg:w-153.5 xl:w-141.25 space-y-4 order-1'>
+            <Heading4 text={title}/>
+            <p>We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate.</p>
+        </div>
+        <div className={`flex w-1/2 items-center md:justify-center order-1`}>
+          {/* <Image className={` anim1 ${index % 2 !== 0 && isVisible ? 'md:order-1 anim' : 'md:order-2'}`} src={image} alt="image" /> */}
+          <Image className={`anim1 ${isVisible? 'anim3': ''}`} src={ballImage} alt="image" /> 
+        </div>
+        
+    </div>
+    <div className='flex flex-col md:flex md:flex-row md:justify-between  gap-8 md:grid-cols-2 py-8 md:py-14.25 md:mt-12.5'>
+        <div className='md:w-3/4 lg:w-153.5 xl:w-141.25 space-y-4 order-2'>
+            <Heading4 text={title}/>
+            <p>We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate.</p>
+        </div>
+        <div className={`flex w-1/2 items-center md:justify-center order-1`}>
+          {/* <Image className={` anim1 ${index % 2 !== 0 && isVisible ? 'md:order-1 anim' : 'md:order-2'}`} src={image} alt="image" /> */}
+          <Image className={`anim1 ${isVisible? 'anim': ''}`} src={arcImage} alt="image" /> 
+        </div>
+        
+    </div>
+    <div className='flex flex-col md:flex md:flex-row md:justify-between  gap-8 md:grid-cols-2 py-8 md:py-14.25 md:mt-12.5'>
+        <div className='md:w-3/4 lg:w-153.5 xl:w-141.25 space-y-4 order-1'>
+            <Heading4 text={title}/>
+            <p>We believe that blockchain technology could have the same revolutionary potential as the internet and will change how we cooperate.</p>
+        </div>
+        <div className={`flex w-1/2 items-center md:justify-center order-1`}>
+          {/* <Image className={` anim1 ${index % 2 !== 0 && isVisible ? 'md:order-1 anim' : 'md:order-2'}`} src={image} alt="image" /> */}
+          <Image className={`anim1 ${isVisible? 'anim3': ''}`} src={diamondImage} alt="image" /> 
+        </div>
+        
+    </div>
+    </div>
     );
 }
 

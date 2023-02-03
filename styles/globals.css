@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components{
+    .anim{
+        position: relative;
+        animation-name: comein;
+        animation-duration: 4000ms;
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    .anim3{
+        position: relative;
+        animation-name: comeout;
+        animation-duration: 4000ms;
+        transform: translateX(0%);
+        opacity: 1;
+    }
+        @keyframes comein{
+            from{
+              
+                transform: translateX(-150%) ;
+                opacity: 0.5;
+            }
+         
+            to{
+                transform: translateX(0%);
+                opacity: 1;
+            }
+
+        }
+        @keyframes comeout{
+            from{
+                transform: translateX(100%);
+                opacity: 0.5;
+            }
+            to{
+                transform: translateX(0%);
+                opacity: 1;
+            }
+        }
+    
+}

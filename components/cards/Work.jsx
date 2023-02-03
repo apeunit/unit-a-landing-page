@@ -31,7 +31,7 @@ const Work = ({ text, title, imageSrc, redirectLink }) => {
         className="lg:hidden relative h-48.5 mt-10 w-auto
           rounded lg:mx-10 xl:mx-5 md:w-212.5 md:h-115.75"
       >
-        <Link href={redirectLink}>
+        <Link href={redirectLink} target="_blank">
           <Image src={imageSrc} alt="our work" fill className="rounded" />
         </Link>
       </div>

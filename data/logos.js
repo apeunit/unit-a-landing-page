@@ -1,7 +1,7 @@
 const logos = [
     {
         id: 1,
-        source: '/assets/images/celo.svg',
+        source: '/assets/images/CELO.svg',
         Width: '120',
         Height: '59',
         link: 'https://celo.org/'
@@ -60,7 +60,7 @@ const logos = [
         source: '/assets/images/unit8.svg',
         Width: '124',
         Height: '60',
-        link: 'https://unit8.apeunit.com/'
+        link: 'https://u8-landing.netlify.app/'
     }
 ];
 

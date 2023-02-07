@@ -8,7 +8,7 @@ const OurWork = () => {
       <div>
         <Heading2 className="lg:ml-24 ml-0">Our Work</Heading2>
       </div>
-      <div className="flex flex-col w-full gap-8 md:mt-8.25 mt-4">
+      <div className="space-y-8 md:mt-8.25 mt-4">
         {projects.map((project, index) => (
           <Work
             key={index}

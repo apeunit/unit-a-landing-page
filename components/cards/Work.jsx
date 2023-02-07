@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Heading3, Paragraph } from "../ui/Typography";
+import { Heading3, Heading4 } from "../ui/Typography";
 import DefaultButton from "../ui/buttons/DefaultButton";
 
 const Work = ({ text, title, imageSrc, redirectLink }) => {
@@ -8,9 +8,9 @@ const Work = ({ text, title, imageSrc, redirectLink }) => {
     <div className="pt-6 pb-8 xl:pt-32.75 xl:pb-27.5 bg-primary-800 w-full xl:w-320 rounded-8 flex-col lg:flex items-center lg:flex-row md:justify-between px-4 xl:px-0 xl:pl-12.75">
       <div className="xl:w-3/5 xl:pl-5 xl:pr-8 md:w-150">
         <Heading3 className="text-white">{title}</Heading3>
-        <Paragraph className="text-secondary-200 leading-11.25 mb-6 w-full">
+        <Heading4 className="text-secondary-200 mb-6 w-full">
           {text}
-        </Paragraph>
+        </Heading4>
         <div className="w-44.75">
           <DefaultButton
             text="Visit"
@@ -22,13 +22,13 @@ const Work = ({ text, title, imageSrc, redirectLink }) => {
       </div>
       <Link href={redirectLink} target="_blank">
         <div
-          className={`lg:block w-157.5 flex justify-end lg:h-102 mt-10
+          className={`lg:block w-157.5 flex justify-end lg:h-102 md:mt-10
         ${title === "Unit 8" ? "bg-unit8" : "bg-lab3"} bg-no-repeat rounded`}
         />
       </Link>
 
       <div
-        className="lg:hidden relative h-48.5 mt-10 w-auto
+        className="lg:hidden relative h-48.5 md:mt-10 mt-8 w-auto
           rounded lg:mx-10 xl:mx-5 md:w-212.5 md:h-115.75"
       >
         <Link href={redirectLink} target="_blank">

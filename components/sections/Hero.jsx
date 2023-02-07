@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="h-8 w-8 lg:h-auto mr-auto lg:w-auto mb-8">
           <Image src={heroPrism} className="lg:block" alt="Prism" />
         </div>
-        <Image src={downArrow} alt="Scroll" className="mr-auto lg:ml-0" />
+        <Image src={downArrow} alt="Scroll" className="mr-auto" />
       </div>
     </section>
   );

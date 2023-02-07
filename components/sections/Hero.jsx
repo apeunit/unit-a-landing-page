@@ -32,11 +32,11 @@ const Hero = () => {
         </p>
       </Heading1>
 
-      <div className="flex lg:justify-center lg:grid lg:grid-cols-2 lg:ml-4.75 items-center">
-        <div className="h-8 w-8 lg:h-auto lg:w-auto mb-8">
+      <div className="flex justify-center lg:grid lg:grid-cols-2 lg:ml-4.75 items-center">
+        <div className="h-8 w-8 lg:h-auto mr-auto lg:w-auto mb-8">
           <Image src={heroPrism} className="lg:block" alt="Prism" />
         </div>
-        <Image src={downArrow} alt="Scroll" className="ml-24 lg:ml-0" />
+        <Image src={downArrow} alt="Scroll" className="mr-auto lg:ml-0" />
       </div>
     </section>
   );

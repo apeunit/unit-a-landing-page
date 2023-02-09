@@ -19,7 +19,7 @@ export const Heading3 = ({ children, className }) => {
 
 export const Heading4 = ({ children, className }) => {
     return (
-        <h4 className={`font-normal leading-5.5 md:leading-9.5 text-xl md:text-3xl -tracking-0.015 ${className}`}>{children}</h4>
+        <h4 className={`font-normal leading-7.5 md:leading-9.5 text-xl md:text-3xl -tracking-0.015 ${className}`}>{children}</h4>
     )
 }
 

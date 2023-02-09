@@ -7,7 +7,7 @@ import underlineTop from "/public/assets/images/underline-top.webp";
 
 const Hero = () => {
   return (
-    <section className="text-white flex flex-col pt-9.25 mb-10.75 lg:mb-39.25">
+    <section className="text-white flex flex-col pt-7 mb-10.75 lg:mb-39.25">
       <Heading1 className="mb-11.75">Unit A</Heading1>
       <div className="self-end w-10.5 h-10.5 lg:w-auto lg:h-auto lg:mr-15.15 lg:flex">
         <Image src={heroBall} alt="Hero Ball" />

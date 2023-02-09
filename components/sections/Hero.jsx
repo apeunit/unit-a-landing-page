@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="self-end w-10.5 h-10.5 lg:w-auto lg:h-auto lg:mr-15.15 lg:flex">
         <Image src={heroBall} alt="Hero Ball" />
       </div>
-      <Heading1 className="lg:mt-4.15 mb-25.49 w-full lg:w-239 xl:w-295.25  xl:ml-19.75 mx-auto">
+      <Heading1 className="lg:mt-4.15 mb-25.49 w-full lg:w-239 xl:w-3.7/4   mx-auto">
         <span>A </span>
         <p className="inline-flex">
           <span className="relative pr-2">

@@ -18,8 +18,8 @@ const Hero = () => {
       <h3 className="font-semibold md:text-14.75 text-9.5 lg:leading-22.13 leading-14.25 text-white  mt-12.5 lg:mt-4.15 mb-25.49 w-full lg:w-239 xl:w-295.25 md:w-239 xl:ml-19.75 mx-auto">
         <span>A </span>
         <p className="inline-flex">
-          <span className="relative">
-            joint-force b
+          <span className="relative mr-2.5">
+            joint-force
             <Image
               src={underlineTop}
               className="absolute bottom-0 left-0"
@@ -28,7 +28,7 @@ const Hero = () => {
           </span>
         </p>
         <span>
-          etween African & European developers & organizations working in
+        between African & European developers & organizations working in
         </span>
         <p className="inline-flex">
           <span className="relative">

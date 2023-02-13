@@ -9,7 +9,6 @@ module.exports = {
       backgroundImage: {
         unit8: "url('/assets/images/unit8-project.svg')",
         lab3: "url('/assets/images/Lab3.jpg')",
-        "hero-pattern": "url('/assets/images/rectangle.svg')",
       },
       colors: {
         primary: {
@@ -31,6 +30,8 @@ module.exports = {
       fontSize: {
         3.75: "0.9375rem",
         4.75: "1.1875rem",
+        6.5: "1.625rem",
+        8:"2rem",
         9.5: "2.375rem",
         11.75: "2.9375rem",
         14.75: "3.6875rem",

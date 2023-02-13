@@ -7,7 +7,7 @@ const Partners = () => {
   return (
     <div className="flex flex-col items-center justify-center lg:mt-12.5 md:mt-3.5 mt-5 mb-7.5 lg:mb-15.25">
       <Title>Partners</Title>
-      <p className="-mt-12 text-center text-secondary-200">
+      <p className="text-center text-secondary-200">
         We partner with the leading brands
       </p>
       <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-59.5">

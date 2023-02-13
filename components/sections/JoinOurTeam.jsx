@@ -4,7 +4,7 @@ import WhiteArrow from "../svgs/WhiteArrow";
 
 const JoinOurTeam = () => {
     return (
-        <section className="py-10 md:px-0 xl:w-4.37/5 mx-auto w-full px-6.5">
+        <section className="py-10 md:px-0 xl:w-3.7/4 mx-auto w-full">
             <Heading2 className='bg-repeat-x'>Join Our Team</Heading2>
             {openings.map((opening, index) => {
                 return (

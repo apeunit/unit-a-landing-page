@@ -10,7 +10,7 @@ const Partners = () => {
       <Paragraph className="text-center text-secondary-200">
         We partner with the leading brands
       </Paragraph>
-      <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-59.5">
+      <div className="md:flex flex-wrap justify-center items-center hidden lg:mx-57.75">
         {logos.map((logo, index) => {
           return (
             <Link href={logo.link} key={index} target='_blank'>

@@ -6,9 +6,9 @@ const OurWork = () => {
   return (
     <div className="flex flex-col mt-9.75 md:mt-30.25 mb-2.75 md:mb-16">
       <div>
-        <Heading2 className="lg:ml-24 ml-0">Our Work</Heading2>
+        <Heading2 className="xl:ml-11.25 ml-0">Our Work</Heading2>
       </div>
-      <div className="space-y-8 md:mt-8.25 mt-4">
+      <div className="space-y-6 md:mt-8.25 mt-4">
         {projects.map((project, index) => (
           <Work
             key={index}

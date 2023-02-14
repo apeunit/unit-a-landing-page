@@ -13,13 +13,13 @@ export const Heading2 = ({ children, className }) => {
 
 export const Heading3 = ({ children, className }) => {
     return (
-        <h3 className={`font-normal md:text-9.5 md:leading-12.25 leading-6.32 text-5.75 -tracking-0.015 ${className}`}>{children}</h3>
+        <h3 className={`font-normal md:text-9.5 md:leading-12.25 leading-9 text-5.75 -tracking-0.015 ${className}`}>{children}</h3>
     )
 }
 
 export const Heading4 = ({ children, className }) => {
     return (
-        <h4 className={`font-normal leading-5.5 md:leading-9.5 text-xl md:text-3xl -tracking-0.015 ${className}`}>{children}</h4>
+        <h4 className={`font-normal leading-7.5 md:leading-9.5 text-xl md:text-3xl -tracking-0.015 ${className}`}>{children}</h4>
     )
 }
 

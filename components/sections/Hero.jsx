@@ -29,9 +29,9 @@ const Hero = () => {
         </span>
       </Heading1>
 
-      <div className="flex justify-center lg:grid lg:grid-cols-2 lg:ml-4.75 items-center">
-        <div className="w-8 h-8 mb-8 mr-auto lg:h-auto lg:w-auto">
-          <Image src={heroPrism} className="lg:block" alt="Prism" />
+      <div className="flex justify-center md:grid md:grid-cols-2 lg:ml-4.75 items-center lg:items-center">
+        <div className="w-8 h-8 mb-8 mr-auto md:block md:h-auto md:w-auto md:my-auto">
+          <Image src={heroPrism} alt="Prism" />
         </div>
         <Image src={downArrow} alt="Scroll" className="mr-auto" />
       </div>

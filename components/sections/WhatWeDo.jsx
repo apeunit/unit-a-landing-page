@@ -4,11 +4,10 @@ import { Heading2 } from "../ui/Typography";
 const WhatWeDo = () => {
     return (
         <section className="xl:w-3.7/4 mx-auto md:px-0">
-            <Heading2 className="mb-1 sm:mb-0">What we do </Heading2>
+            <Heading2 className="mb-1 md:mb-23.25">What we do </Heading2>
             {
                 offers.map((offer, index) => <WhatWeDoCard {...offer} key={index} index={index} />)
             }
-
         </section>
     );
 }

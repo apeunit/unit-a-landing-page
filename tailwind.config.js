@@ -195,7 +195,6 @@ module.exports = {
         70: "24.375rem",
         233: "58.25rem",
         260:'65rem',
-        320: "80rem",
       },
 
       borderRadius: {

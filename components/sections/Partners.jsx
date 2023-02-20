@@ -10,7 +10,7 @@ const Partners = () => {
       <Paragraph className="text-center text-secondary-200">
         We partner with the leading brands
       </Paragraph>
-      <div className="md:flex flex-wrap justify-center mt-6 md:mt-4.75 items-center hidden lg:mx-57.75">
+      <div className="md:flex flex-wrap justify-center md:mt-4.75 items-center hidden lg:mx-57.75">
         {logos.map((logo, index) => {
           return (
             <Link href={logo.link} key={index} target='_blank'>
@@ -26,7 +26,7 @@ const Partners = () => {
           );
         })}
       </div>
-      <div className="flex flex-wrap justify-center w-full md:hidden">
+      <div className="flex flex-wrap justify-center mt-6 w-full md:hidden">
         {logos.map((logo, index) => {
           return (
             <div className="relative w-11.25 h-8.25 mx-1.5 my-2" key={index}>

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const JoinOurTeam = () => {
     return (
-        <section className="pt-2.5 pb-12 md:pb-33 md:px-0 xl:w-3.7/4 mx-auto w-full">
+        <section className="pt-2.5 md:pt-12 pb-12 md:pb-33 md:px-0 xl:w-3.7/4 mx-auto w-full">
             <Heading2 className='mb-5 bg-repeat-x'>Join Our Team</Heading2>
             {openings.map((opening, index) => {
                 return (

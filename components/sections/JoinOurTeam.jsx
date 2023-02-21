@@ -1,7 +1,7 @@
+import Link from "next/link";
 import openings from "/data/openings";
 import {Heading2, Heading3} from "../ui/Typography";
 import WhiteArrow from "../svgs/WhiteArrow";
-import Link from "next/link";
 
 const JoinOurTeam = () => {
     return (

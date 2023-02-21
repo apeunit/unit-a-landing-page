@@ -4,7 +4,7 @@ const projects = [
     title: "Unit 8",
     description:
       "A pioneering technology company specializing in decentralized technologies that creates end-to-end digital experiences for protocols including Ethereum, Tezos, Near, Algorand, Celo and more.",
-    image: "/assets/images/Unit8.jpg",
+    image: "/assets/images/unit8.jpg",
     visitLink: "https://unit8.apeunit.com/"
   },
   {

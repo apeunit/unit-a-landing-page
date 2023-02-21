@@ -5,7 +5,7 @@ import DefaultButton from "../ui/buttons/DefaultButton";
 
 const Work = ({ text, title, imageSrc, redirectLink }) => {
   return (
-    <div className="pt-6 pb-8 xl:pt-32.75 xl:pb-27.5 bg-primary-800 w-full rounded-8 flex-col lg:flex items-center lg:flex-row md:justify-between px-4 xl:px-0 xl:pl-12.75">
+    <div className="pt-6 pb-8 xl:pt-32.75 xl:pb-27.5 bg-primary-800 w-full rounded-2xl md:rounded-8 flex-col lg:flex items-center lg:flex-row md:justify-between px-4 xl:px-0 xl:pl-12.75">
       <div className="xl:w-3/5 xl:pl-5 xl:pr-8 md:w-150">
         <Heading3 className="text-white">{title}</Heading3>
         <Heading4 className="w-full mb-6 text-secondary-200">

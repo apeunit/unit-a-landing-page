@@ -44,7 +44,7 @@ const logos = [
         source: '/assets/images/lab3.svg',
         Width: '99',
         Height: '60',
-        link: 'https://lab3.space/'
+        link: 'https://lab3.space/',
         alt: "Lab 3"
     },
     {
@@ -68,7 +68,7 @@ const logos = [
         source: '/assets/images/unit8.svg',
         Width: '124',
         Height: '60',
-        link: link: 'https://unit8.apeunit.com/',
+        link: 'https://unit8.apeunit.com/',
         alt: "Unit 8"
     }
 ];

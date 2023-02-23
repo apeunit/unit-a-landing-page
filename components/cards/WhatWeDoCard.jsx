@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
 import Image from 'next/image'
 import { Heading3, Paragraph } from '../ui/Typography';
+import classNames from "classnames";
 
 const WhatWeDoCard = ({ index, title, description, image }) => {
     const [screenSize, setScreenSize] = useState(typeof window !== "undefined" && window.innerWidth);
@@ -10,18 +11,11 @@ const WhatWeDoCard = ({ index, title, description, image }) => {
         visible: { opacity: 1, x: 0, transition: { duration: 0.9 } },
         hidden: { opacity: 0, x: screenSize > 640 ? (index % 2 == 0 ? 150 : -150) : 0 },
     };
-
     useEffect(() => {
-        const setter = () => setScreenSize(window.innerWidth);
-        (() => {
-            if (window) {
-                setter()
-                window.addEventListener('resize', setter)
-            }
-        })();
-        return () => window?.removeEventListener('resize', setter)
-    }, []);
-
+        setScreenSize(window.innerWidth);
+        window.addEventListener('resize', () => setScreenSize(window.innerWidth));
+        return () => window.removeEventListener('resize', () => setScreenSize(window.innerWidth));
+    }, [screenSize]);
     const control = useAnimation()
     const [ref, inView] = useInView()
 

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Heading, Paragraph } from '../ui/Typography';
 import classNames from "classnames";
 
-const WhatWeDoCard = ({ index, title, description, image }) => {
+const WhatWeDoCard = ({ index, title, description, image, alt }) => {
     const [screenSize, setScreenSize] = useState(typeof window !== "undefined" && window.innerWidth);
     const boxVariants = {
         visible: { opacity: 1, x: 0, transition: { duration: 0.9 } },
@@ -42,7 +42,8 @@ const WhatWeDoCard = ({ index, title, description, image }) => {
                 className="flex items-center order-1 w-1/2 md:justify-center">
                 <Image
                   className={imageStyles}
-                  src={image} alt="image" 
+                  src={image} 
+                  alt={alt} 
                 />
             </motion.div>
         </div>

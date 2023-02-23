@@ -19,8 +19,9 @@ const Partners = () => {
                 width={logo.Width}
                 height={logo.Height}
                 src={logo.source}
-                alt="logo"
-              ></Image>
+                alt={logo.alt}
+                className="mx-3 my-2"
+              />
             </Link>
           );
         })}
@@ -28,8 +29,8 @@ const Partners = () => {
       <div className="flex flex-wrap justify-center mt-6 w-full md:hidden gap-y-4 gap-x-3">
         {logos.map((logo, index) => {
           return (
-            <div className="relative w-11.25 h-8.25" key={index}>
-              <Link href={logo.link} target='_blank'><Image src={logo.source} priority fill alt="logo" /></Link>
+            <div className="relative w-11.25 h-8.25 mx-1.5 my-2" key={index}>
+              <Link href={logo.link} target='_blank'><Image src={logo.source} priority fill alt={logo.alt} /></Link>
             </div>
           );
         })}

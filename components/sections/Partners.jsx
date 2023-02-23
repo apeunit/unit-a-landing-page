@@ -19,7 +19,7 @@ const Partners = () => {
                 width={logo.Width}
                 height={logo.Height}
                 src={logo.source}
-                alt="logo"
+                alt={logo.alt}
                 className="mx-3 my-2"
               />
             </Link>
@@ -30,7 +30,7 @@ const Partners = () => {
         {logos.map((logo, index) => {
           return (
             <div className="relative w-11.25 h-8.25 mx-1.5 my-2" key={index}>
-              <Link href={logo.link} target='_blank'><Image src={logo.source} priority fill alt="logo" /></Link>
+              <Link href={logo.link} target='_blank'><Image src={logo.source} priority fill alt={logo.alt} /></Link>
             </div>
           );
         })}

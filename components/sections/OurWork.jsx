@@ -15,6 +15,7 @@ const OurWork = () => {
             title={project.title}
             text={project.description}
             imageSrc={project.image}
+            imageAlt={project.imageAlt}
             redirectLink={project.visitLink}
           />
         ))}

@@ -39,7 +39,7 @@ const logos = [
         source: '/assets/images/lab3.svg',
         Width: '99',
         Height: '60',
-        link: 'https://www.figma.com/proto/RbdGsuKF8RyVnrP5TTxdnO/Lab3-Presentation?node-id=1515%3A232&starting-point-node-id=1515%3A232'
+        link: 'https://lab3.space/'
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const logos = [
         source: '/assets/images/unit8.svg',
         Width: '124',
         Height: '60',
-        link: 'https://u8-landing.netlify.app/'
+        link: 'https://unit8.apeunit.com/'
     }
 ];
 

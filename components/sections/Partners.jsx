@@ -1,12 +1,12 @@
 import Image from "next/image";
 import logos from "/data/logos";
 import Link from "next/link";
-import { Heading2, Paragraph } from "../ui/Typography";
+import { Heading, Paragraph } from "../ui/Typography";
 
 const Partners = () => {
   return (
     <div className="flex flex-col items-center justify-center mb-13.5 md:mb-35">
-      <Heading2>Partners</Heading2>
+      <Heading type="two">Partners</Heading>
       <Paragraph className="text-center text-secondary-200">
         We partner with the leading brands
       </Paragraph>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Heading } from "../ui/Typography";
 import heroBall from "/public/assets/images/hero-ball.webp";
 import heroPrism from "/public/assets/images/hero-prism.webp";
-import downArrow from "/public/assets/images/downArrow.webp";
+import downArrow from "/public/assets/images/down-arrow.webp";
 import underlineTop from "/public/assets/images/underline-top.webp";
 
 const Hero = () => {

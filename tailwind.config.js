@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         unit8: "url('/assets/images/unit8-project.svg')",
-        lab3: "url('/assets/images/Lab3.jpg')",
+        lab3: "url('/assets/images/lab3.jpg')",
       },
       colors: {
         primary: {

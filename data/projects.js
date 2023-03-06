@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     title: "Lab3",
     description: "A web3 knowledge exchange community for music makers",
-    image: "/assets/images/Lab3.jpg",
+    image: "/assets/images/lab3.jpg",
     imageAlt: "Lab 3",
     visitLink: "http://lab3.space/"
   },

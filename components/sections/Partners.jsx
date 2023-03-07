@@ -26,7 +26,7 @@ const Partners = () => {
           );
         })}
       </div>
-      <div className="flex flex-wrap justify-center mt-6 w-full md:hidden gap-y-4 gap-x-3">
+      <div className="flex flex-wrap justify-center w-full mt-6 md:hidden gap-y-4 gap-x-3">
         {logos.map((logo, index) => {
           return (
             <div className="relative w-11.25 h-8.25 mx-1.5 my-2" key={index}>

@@ -7,7 +7,7 @@ const Work = ({ text, title, imageSrc, imageAlt, redirectLink }) => {
   return (
     <div className="pt-6 pb-8 xl:pt-32.75 xl:pb-27.5 bg-primary-800 w-full rounded-2xl md:rounded-8 flex-col lg:flex items-center lg:flex-row md:justify-between px-4 xl:px-0 xl:pl-12.75">
       <div className="xl:w-3/5 xl:pl-5 xl:pr-8 md:w-150">
-        <Heading className="text-white" type='three'>{title}</Heading>
+        <Heading className="text-white" type="three">{title}</Heading>
         <Heading className="w-full mb-6 text-secondary-200" type="four">
           {text}
         </Heading>

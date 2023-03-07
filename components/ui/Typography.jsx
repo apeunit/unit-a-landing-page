@@ -1,10 +1,10 @@
-export const Heading = ({ children, className, type = "default" }) => {
+export const Heading = ({ children, className, type = "one" }) => {
 
   const classes = {
-    one:`font-normal md:text-11.75 md:leading-14.75 leading-7.15 text-6.5 text-white -tracking-0.015 md:-tracking-0.02 ${className}`,
-    two:`font-normal md:text-9.5 md:leading-12.25 leading-9 text-5.75 -tracking-0.015 ${className}`,
-    three: `font-normal leading-7.5 md:leading-9.5 text-xl md:text-3xl -tracking-0.015 ${className}`,
-    default:`font-medium md:font-normal md:text-14.75 text-7.25 md:leading-22 leading-11 -tracking-0.02 ${className}`
+    one:`font-medium md:font-normal md:text-14.75 text-7.25 md:leading-22 leading-11 -tracking-0.02 ${className}`,
+    two:`font-normal md:text-11.75 md:leading-14.75 leading-7.15 text-6.5 text-white -tracking-0.015 md:-tracking-0.02 ${className}`,
+    three:`font-normal md:text-9.5 md:leading-12.25 leading-9 text-5.75 -tracking-0.015 ${className}`,
+    four: `font-normal leading-7.5 md:leading-9.5 text-xl md:text-3xl -tracking-0.015 ${className}`,
   }[type]
 
   return (

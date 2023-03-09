@@ -8,7 +8,6 @@ import WhatWeDo from "../components/sections/WhatWeDo";
 import ContactUs from "../components/sections/ContactUs";
 import Footer from "../components/layout/Footer";
 import Hero from "../components/sections/Hero";
-
 const Home = () => {
   return (
     <>

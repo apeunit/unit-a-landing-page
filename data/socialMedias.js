@@ -8,7 +8,7 @@ const socialMedias = [
         content: "Facebook",
     },
     {
-        link: "https://de.linkedin.com/company/ape-unit",
+        link: "https://www.linkedin.com/company/apeunit/",
         content: "Linkedin",
     },
 ]
